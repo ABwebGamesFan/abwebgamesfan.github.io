@@ -1,0 +1,19 @@
+{
+	"image": "INGAME_BUYADS.png",
+	"spriteCount": 15,
+	"sprite_0": { "id": "POPUP_BUYADS", "x": 1, "y": 1, "width": 640, "height": 352, "pivotx": 320, "pivoty": 176 },
+	"sprite_1": { "id": "BUTTON_BUYADS_BACK", "x": 643, "y": 217, "width": 87, "height": 84, "pivotx": 43, "pivoty": 42 },
+	"sprite_2": { "id": "POPUP_OFFLINE", "x": 1, "y": 554, "width": 650, "height": 196, "pivotx": 325, "pivoty": 98 },
+	"sprite_3": { "id": "BUTTON_BUYADS_SHORT_1", "x": 430, "y": 437, "width": 88, "height": 62, "pivotx": 44, "pivoty": 31 },
+	"sprite_4": { "id": "BUTTON_BUYADS_LONG_1", "x": 1, "y": 752, "width": 338, "height": 62, "pivotx": 169, "pivoty": 31 },
+	"sprite_5": { "id": "TRASHBINBIRD", "x": 1, "y": 355, "width": 225, "height": 197, "pivotx": 112, "pivoty": 98 },
+	"sprite_6": { "id": "TOOLTIP_OFFLINE", "x": 228, "y": 355, "width": 478, "height": 80, "pivotx": 239, "pivoty": 40 },
+	"sprite_7": { "id": "TOOLTIP_TRY_ME", "x": 520, "y": 437, "width": 178, "height": 40, "pivotx": 0, "pivoty": 0 },
+	"sprite_8": { "id": "TOOLTIP_LOGIN", "x": 653, "y": 554, "width": 68, "height": 40, "pivotx": 0, "pivoty": 0 },
+	"sprite_9": { "id": "TOOLTIP_TRAILER", "x": 643, "y": 303, "width": 82, "height": 40, "pivotx": 0, "pivoty": 0 },
+	"sprite_10": { "id": "TOOLTIP_BUY_ME", "x": 520, "y": 479, "width": 178, "height": 40, "pivotx": 0, "pivoty": 0 },
+	"sprite_11": { "id": "TOOLTIP_FAQ", "x": 430, "y": 501, "width": 78, "height": 40, "pivotx": 0, "pivoty": 0 },
+	"sprite_12": { "id": "BUTTON_TUTORIAL_ME", "x": 643, "y": 126, "width": 89, "height": 89, "pivotx": 44, "pivoty": 44 },
+	"sprite_13": { "id": "BUTTON_LOGIN", "x": 228, "y": 437, "width": 200, "height": 80, "pivotx": 100, "pivoty": 40 },
+	"sprite_14": { "id": "ICON_LOGINARROW", "x": 643, "y": 1, "width": 72, "height": 123, "pivotx": 36, "pivoty": 61 }
+}

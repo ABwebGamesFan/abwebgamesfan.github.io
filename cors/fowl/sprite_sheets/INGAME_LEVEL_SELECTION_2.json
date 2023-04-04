@@ -1,0 +1,5 @@
+{
+	"image": "INGAME_LEVEL_SELECTION_2.png",
+	"spriteCount": 1,
+	"sprite_0": { "id": "LEVELSELECTION_CRACKIN_LEVELS", "x": 0, "y": 0, "width": 484, "height": 250, "pivotx": 242, "pivoty": 125 }
+}

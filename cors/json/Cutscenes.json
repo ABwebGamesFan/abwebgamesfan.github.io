@@ -1,0 +1,222 @@
+{
+	"CUTSCENE_EP1_INTRO" : {
+		"image" :         "episode1/Cutscene_Ep1_Begin.jpg",
+		"startMovement" : 4500,
+		"endMovement" :   13000,
+		"endScene" :      16500,
+		"sounds" :        [
+			{
+				"sound" : "birds_intro",
+				"start" : 500
+			}
+		]
+	},
+	"CUTSCENE_EP1_BOSS1" : {
+		"image" :         "episode1/Cutscene_Ep1_Boss1.jpg",
+		"startMovement" : 3000,
+		"endMovement" :   4500,
+		"endScene" :      7500,
+		"sounds" :        [
+			{
+				"sound" : "birds_boss",
+				"start" : 500
+			}
+		]
+	},
+	"CUTSCENE_EP1_BOSS2" : {
+		"image" :         "episode1/Cutscene_Ep1_Boss2.jpg",
+		"startMovement" : 3000,
+		"endMovement" :   4500,
+		"endScene" :      7500,
+		"sounds" :        [
+			{
+				"sound" : "birds_boss",
+				"start" : 500
+			}
+		]
+	},
+	"CUTSCENE_EP1_END" : {
+		"image" :         "episode1/Cutscene_Ep1_End.jpg",
+		"startMovement" : 2500,
+		"endMovement" :   6500,
+		"endScene" :      12000,
+		"sounds" :        [
+			{
+				"sound" : "birds_outro",
+				"start" : 500
+			},
+			{
+				"sound" : "pig_oink",
+				"start" : 10000
+			}
+		],
+		"sprites" : [
+			{
+				"image" : "episode1/Cutscene_Ep1_End_Eye_Open.png",
+				"start" : 0,
+				"end" :   0,
+				"x" :     1705,
+				"y" :     400
+			},
+			{
+				"image" : "episode1/Cutscene_Ep1_End_Eye_Peek.png",
+				"start" : 8000,
+				"end" :   8500,
+				"x" :     1705,
+				"y" :     400
+			},
+			{
+				"image" : "episode1/Cutscene_Ep1_End_Eye_Wink.png",
+				"start" : 10000,
+				"end" :   10300,
+				"x" :     1705,
+				"y" :     400
+			}
+		]
+	},
+	"CUTSCENE_EP2_INTRO" : {
+		"image" :         "episode2/Cutscene_Ep2_Begin.jpg",
+		"startMovement" : 4500,
+		"endMovement" :   13000,
+		"endScene" :      16500,
+		"sounds" :        [
+			{
+				"sound" : "birds_intro",
+				"start" : 500
+			}
+		]
+	},
+	"CUTSCENE_EP2_BOSS1" : {
+		"image" :         "episode2/Cutscene_Ep2_Boss1.jpg",
+		"startMovement" : 3000,
+		"endMovement" :   4500,
+		"endScene" :      7500,
+		"sounds" :        [
+			{
+				"sound" : "birds_boss",
+				"start" : 500
+			}
+		]
+	},
+	"CUTSCENE_EP2_END" : {
+		"image" :         "episode2/Cutscene_Ep2_End.jpg",
+		"startMovement" : 2500,
+		"endMovement" :   6500,
+		"endScene" :      12000,
+		"sounds" :        [
+			{
+				"sound" : "birds_outro",
+				"start" : 500
+			},
+			{
+				"sound" : "pig_oink",
+				"start" : 10000
+			}
+		],
+		"sprites" : [
+			{
+				"image" : "episode2/Cutscene_Ep2_End_Eye_Open.png",
+				"start" : 0,
+				"end" :   10000,
+				"x" :     1255,
+				"y" :     462
+			},
+			{
+				"image" : "episode2/Cutscene_Ep2_End_Eye_Peek.png",
+				"start" : 8000,
+				"end" :   8500,
+				"x" :     1255,
+				"y" :     462
+			},
+			{
+				"image" : "episode2/Cutscene_Ep2_End_Eye_Wink.png",
+				"start" : 10000,
+				"end" :   10500,
+				"x" :     1255,
+				"y" :     450
+			},
+			{
+				"image" : "episode2/Cutscene_Ep2_End_Eye_Open.png",
+				"start" : 10500,
+				"end" :   11000,
+				"x" :     1255,
+				"y" :     462
+			},
+			{
+				"image" : "episode2/Cutscene_Ep2_End_Eye_Smile.png",
+				"start" : 11000,
+				"end" :   12000,
+				"x" :     1235,
+				"y" :     480
+			}
+		]
+	},
+	"CUTSCENE_EP3_INTRO" : {
+		"image" :         "episode3/Cutscene_Ep3_Begin.jpg",
+		"startMovement" : 4500,
+		"endMovement" :   13000,
+		"endScene" :      16500,
+		"sounds" :        [
+			{
+				"sound" : "birds_intro",
+				"start" : 500
+			}
+		]
+	},
+	"CUTSCENE_EP3_BOSS1" : {
+		"image" :         "episode3/Cutscene_Ep3_Boss1.jpg",
+		"startMovement" : 3000,
+		"endMovement" :   4500,
+		"endScene" :      7500,
+		"sounds" :        [
+			{
+				"sound" : "birds_boss",
+				"start" : 500
+			}
+		]
+	},
+	"CUTSCENE_EP3_BOSS2" : {
+		"image" :         "episode3/Cutscene_Ep3_Boss2.jpg",
+		"startMovement" : 3000,
+		"endMovement" :   4500,
+		"endScene" :      7500,
+		"sounds" :        [
+			{
+				"sound" : "birds_boss",
+				"start" : 500
+			}
+		]
+	},
+	"CUTSCENE_EP3_END" : {
+		"image" :         "episode3/Cutscene_Ep3_End.jpg",
+		"startMovement" : 2500,
+		"endMovement" :   6500,
+		"endScene" :      12000,
+		"sounds" :        [
+			{
+				"sound" : "birds_outro",
+				"start" : 500
+			},
+			{
+				"sound" : "pig_oink",
+				"start" : 10000
+			}
+		],
+		"sprites" : [
+			{
+				"image" : "episode3/Cutscene_Ep3_End_Eye_Peek.png",
+				"start" : 8000,
+				"end" :   8500,
+				"x" :     1141,
+				"y" :     194
+			},
+			{
+				"image" : "episode3/Cutscene_Ep3_End_Eye_Wink.png",
+				"start" : 10000,
+				"end" :   10300,
+				"x" :     1140,
+				"y" :     200
+			}
+		]
+	}
+}

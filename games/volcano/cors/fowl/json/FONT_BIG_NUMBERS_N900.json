@@ -1,0 +1,288 @@
+{
+	"name": "FONT_BIG_NUMBERS_N900",
+	"leading": 100,
+	"spacing": -2,
+	"charCount": 35,
+	"chars": {
+		"char_0": {
+			"code": 37,
+			"x": 71,
+			"y": 168,
+			"width": 57,
+			"height": 75,
+			"baseline": 70
+		},
+		"char_1": {
+			"code": 44,
+			"x": 421,
+			"y": 187,
+			"width": 25,
+			"height": 28,
+			"baseline": 16
+		},
+		"char_2": {
+			"code": 51,
+			"x": 320,
+			"y": 2,
+			"width": 46,
+			"height": 74,
+			"baseline": 68
+		},
+		"char_3": {
+			"code": 57,
+			"x": 414,
+			"y": 2,
+			"width": 49,
+			"height": 73,
+			"baseline": 67
+		},
+		"char_4": {
+			"code": 63,
+			"x": 230,
+			"y": 158,
+			"width": 47,
+			"height": 74,
+			"baseline": 68
+		},
+		"char_5": {
+			"code": 47,
+			"x": 279,
+			"y": 158,
+			"width": 36,
+			"height": 73,
+			"baseline": 68
+		},
+		"char_6": {
+			"code": 54,
+			"x": 465,
+			"y": 2,
+			"width": 43,
+			"height": 73,
+			"baseline": 67
+		},
+		"char_7": {
+			"code": 32,
+			"x": 421,
+			"y": 152,
+			"width": 28,
+			"height": 33,
+			"baseline": 31
+		},
+		"char_8": {
+			"code": 41,
+			"x": 143,
+			"y": 162,
+			"width": 29,
+			"height": 75,
+			"baseline": 71
+		},
+		"char_9": {
+			"code": 45,
+			"x": 25,
+			"y": 225,
+			"width": 35,
+			"height": 18,
+			"baseline": 40
+		},
+		"char_10": {
+			"code": 55,
+			"x": 368,
+			"y": 2,
+			"width": 44,
+			"height": 74,
+			"baseline": 68
+		},
+		"char_11": {
+			"code": 46,
+			"x": 204,
+			"y": 83,
+			"width": 21,
+			"height": 18,
+			"baseline": 13
+		},
+		"char_12": {
+			"code": 61,
+			"x": 320,
+			"y": 226,
+			"width": 38,
+			"height": 16,
+			"baseline": 30
+		},
+		"char_13": {
+			"code": 53,
+			"x": 320,
+			"y": 152,
+			"width": 48,
+			"height": 72,
+			"baseline": 67
+		},
+		"char_14": {
+			"code": 189,
+			"x": 230,
+			"y": 80,
+			"width": 87,
+			"height": 76,
+			"baseline": 65
+		},
+		"char_15": {
+			"code": 56,
+			"x": 174,
+			"y": 162,
+			"width": 52,
+			"height": 74,
+			"baseline": 68
+		},
+		"char_16": {
+			"code": 39,
+			"x": 45,
+			"y": 150,
+			"width": 19,
+			"height": 31,
+			"baseline": 67
+		},
+		"char_17": {
+			"code": 34,
+			"x": 451,
+			"y": 152,
+			"width": 32,
+			"height": 31,
+			"baseline": 68
+		},
+		"char_18": {
+			"code": 163,
+			"x": 230,
+			"y": 2,
+			"width": 88,
+			"height": 76,
+			"baseline": 68
+		},
+		"char_19": {
+			"code": 43,
+			"x": 25,
+			"y": 184,
+			"width": 38,
+			"height": 39,
+			"baseline": 50
+		},
+		"char_20": {
+			"code": 35,
+			"x": 2,
+			"y": 2,
+			"width": 67,
+			"height": 89,
+			"baseline": 75
+		},
+		"char_21": {
+			"code": 50,
+			"x": 420,
+			"y": 78,
+			"width": 46,
+			"height": 72,
+			"baseline": 67
+		},
+		"char_22": {
+			"code": 52,
+			"x": 371,
+			"y": 78,
+			"width": 47,
+			"height": 72,
+			"baseline": 67
+		},
+		"char_23": {
+			"code": 62,
+			"x": 371,
+			"y": 152,
+			"width": 48,
+			"height": 45,
+			"baseline": 51
+		},
+		"char_24": {
+			"code": 42,
+			"x": 71,
+			"y": 2,
+			"width": 70,
+			"height": 83,
+			"baseline": 68
+		},
+		"char_25": {
+			"code": 36,
+			"x": 2,
+			"y": 93,
+			"width": 41,
+			"height": 89,
+			"baseline": 75
+		},
+		"char_26": {
+			"code": 33,
+			"x": 143,
+			"y": 83,
+			"width": 28,
+			"height": 77,
+			"baseline": 71
+		},
+		"char_27": {
+			"code": 124,
+			"x": 143,
+			"y": 2,
+			"width": 85,
+			"height": 79,
+			"baseline": 66
+		},
+		"char_28": {
+			"code": 94,
+			"x": 71,
+			"y": 87,
+			"width": 66,
+			"height": 79,
+			"baseline": 71
+		},
+		"char_29": {
+			"code": 60,
+			"x": 371,
+			"y": 199,
+			"width": 48,
+			"height": 44,
+			"baseline": 51
+		},
+		"char_30": {
+			"code": 49,
+			"x": 468,
+			"y": 78,
+			"width": 30,
+			"height": 72,
+			"baseline": 67
+		},
+		"char_31": {
+			"code": 40,
+			"x": 173,
+			"y": 83,
+			"width": 29,
+			"height": 76,
+			"baseline": 70
+		},
+		"char_32": {
+			"code": 48,
+			"x": 320,
+			"y": 78,
+			"width": 49,
+			"height": 72,
+			"baseline": 67
+		},
+		"char_33": {
+			"code": 59,
+			"x": 45,
+			"y": 93,
+			"width": 22,
+			"height": 55,
+			"baseline": 44
+		},
+		"char_34": {
+			"code": 58,
+			"x": 2,
+			"y": 184,
+			"width": 21,
+			"height": 48,
+			"baseline": 43
+		}
+	}
+}

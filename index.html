@@ -1,253 +1,273 @@
-<!DOCTYPE html>
 
 
 
-
-
-
-
-
-
-
-
-<html>
-  <head>
-    <base href="http://r221-dot-latest-dot-project-slingshot-hr.appspot.com" />
-    <title>Angry Birds Chrome</title>
-    <meta name="Title" content="Angry Birds Chrome">
-    <meta name="description" content="Play Angry Birds online in HD with Google Chrome">
-    <meta name="keywords" content="angry birds, free angry birds, online game, play online, angry birds app, chrome, google chrome, web browser, HD, arcade game, online, play angry birds online, web, application, game, iphone, android, ipad, slingshot, catapult, explosions, golden egg, levels, pigs, birds, stars, high scores, chrome os, chrome web store, angry birds rovio, play angry birds on computer, apps for chrome, play angry birds free">
-    <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis:800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/angry_birds_chrome.css" type="text/css">
-    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/aknpkdffaafgjchaibgeefbgmgeghloj">
-    
-
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-23082676-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-
-    <script>
-        function externalLink(type) {
-            _gaq.push(['_trackEvent', 'Promo', 'Promotional Link: ' + type]);
-        }
-    </script>
-
-    
-      <script type="text/javascript" src="fowl/fowl.nocache.js"></script>
-    
-    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-      google.load('payments', '1.0', {
-          'packages': [
-          
-            'production_config'
-          
-          ]
-      });
-    </script>
-  </head>
-  <body>
-    
-
-    
-
-    
-      <script type="text/javascript">
-        function getFlashVersion() {
-            try {
-                var version;
-                try {
-                    version = new ActiveXObject("ShockwaveFlash.ShockwaveFlash").GetVariable("$version");
-                } catch (e) {
-                    version = navigator.plugins["Shockwave Flash"].description;
-                }
-                return version.replace(/\D*(\d+).*/g, "$1");
-            } catch (e) {
-                return -1;
-            }
-        }
-
-        function haveAudioSupport() {
-          
-            try {
-              if (new AudioContext()) {
-                return true;
-              }
-            } catch (ignore) { }
-
-            try {
-              if (new webkitAudioContext()) {
-                return true;
-              }
-            } catch (ignore) { }
-
-            return getFlashVersion() >= 9.0;
-          
-        }
-      </script>
-    
-  
-    
-    
-    
-    
-    
-
-      <script type="text/javascript">
-        if (!haveAudioSupport()) {
-          url = window.location.href;
-
-          base = url.match(/[^?#]*/);
-          query = url.match(/\?[^#]*/) || "";
-          hash = url.match(/#.*/);
-
-          query = query.toString().replace(/[?&]$/, "");
-          query = query ? query + "&" : "?";
-          query += "show=need_flash";
-
-          url = base + query;
-          if (hash) url += hash;
-
-          window.location.href = url;
-        }
-      </script>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:fb="http://www.facebook.com/2008/fbml" lang="en" xml:lang="en">    
       
-
-          <table class="content-table">
-            <tr>
-              <td>
-                <iframe id="left-banner" class="ads" src="left_banner.html" width="120px" height="600px" frameborder=0
-                seamless="true" scrolling="no">
-                </iframe>
-              </td>
-              <td>
-
-          <div class="gamecont" id="content">
-            <div id='loginInfo'></div>
+    <head>
+    	<!-- CSS for Common-->
+        <link href="css/common.min.css?version=1-0-2-2.361816662886696338" type="text/css" rel="stylesheet"/>        
+        <!-- CSS for Layout -->
+        <link href="css/fluid_grid.min.css" type="text/css" rel="stylesheet"/>  	
+               	
+        
+        <title>Angry Birds Eagles</title>        
+		<meta name="description" content="Angry Birds Philadelphia Eagles" />	        
+        <meta name="google" value="notranslate" />               	       
+		<meta property="og:title" content="Philadelphia Eagles and Angry Birds" />
+		<meta property="og:type" content="game" />
+		<meta property="og:url" content="http://www.facebook.com/philadelphiaeagles/app_453904584629858" />
+		<meta property="og:image" content="http://philadelphia-eagles.appspot.com/images/ab_eagles_share_icon.png" />
+		<meta property="og:site_name" content="Philadelphia Eagles and Angry Birds" />
+		<meta property="fb:app_id" content="453904584629858" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Cache-Control" content="Public"/>
+        <meta http-equiv="Expires" content="Mon, 31 Dec 2012 12:00:00 GMT"/>
+        
+        <!-- Include CSS to eliminate any default margins/padding and set the height of the html element and 
+             the body element to 100%, because Firefox, or any Gecko based browser, interprets percentage as 
+             the percentage of the height of its parent container, which has to be set explicitly.  Fix for
+             Firefox 3.6 focus border issues.  Initially, don't display flashContent div so it won't show 
+             if JavaScript disabled.
+        -->
+        <style type="text/css" media="screen"> 
             
-            <div id='gameDiv' style="display: inline-block;">
-              <div id='playn-root'>
-                <div id="loading">
-                  <img src="/images/loading_image_bird.png" />
-                </div>
-              </div>
-              <div id="rovionews"></div>
-              <div id="videochapter"></div>              
-              <div id="ingameframecontainer"></div>
-              <div id="cornerframecontainer1"></div>
-            </div>
-            <div class='buttons'>
-              <div class='buttoncontainer'>
-                
-                <div id='version-buttons'></div>
-
-                
-                <script type="text/javascript">
-                  installSuccess = function() {
-                    document.getElementById("installButton").id = "offlineInstalled";
-                    _gaq.push(['_trackEvent', 'InstalledApp', 'New install']);
-                  }
-                  installFail = function(message) {
-                    console.log("Failed inline install: " + message);
-                  }
-                  attemptInstall = function() {
-                    if (typeof chrome != 'undefined') {
-                      chrome.webstore.install('https://chrome.google.com/webstore/detail/aknpkdffaafgjchaibgeefbgmgeghloj', installSuccess, installFail);
-                    } else {
-                      window.location.replace("https://chrome.google.com/webstore/detail/aknpkdffaafgjchaibgeefbgmgeghloj?utm_medium=et&amp;utm_source=partner-angrybirds-bottom-link-1");
-                    }
-                  }
-                </script>
-                <a id='installButton' href='https://chrome.google.com/webstore/detail/aknpkdffaafgjchaibgeefbgmgeghloj' onclick="attemptInstall(); return false;" onmouseover="tooltip.innerHTML = 'Installing the game allows offline play. Crush pigs wherever you are!'" onmouseout="resetTooltip();"></a>
-
-                
-                <a href="#" class="loginButton" id="login"></a>
-                <a href="http://www.rovio.com/en/support/faq&support_category_id=36" id="faqButton" onmouseover="tooltip.innerHTML = 'Frequently Asked Questions'" onmouseout="resetTooltip();" onclick="externalLink('FAQ'); window.open('http://www.rovio.com/en/support/faq&support_category_id=36', '_blank'); return false;"></a>
-
-              </div>
-              
-              
-              <div id='social-container'>
-                <a id="twitterButton" href="https://twitter.com/share" class="twitter-share-button">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                <iframe id="fb-like-iframe" src="http://www.facebook.com/plugins/like.php?app_id=167680559959348&href=http%3A%2F%2Fwww.facebook.com%2Fangrybirds&send=false&layout=button_count&ref=chrome.angrybirds.com&width=100&show_faces=false&action=like&colorscheme=dark&font&height=25"
-                scrolling="no" frameborder="0" style="visibility: hidden; border:none; overflow:hidden; width:160px; height:25px;" allowTransparency="true"></iframe>
-                <a href="https://www.google.com/chrome" id="optimized" onclick="externalLink('Optimized for Chrome'); window.open('https://www.google.com/chrome', '_blank'); return false;"></a>
-              </div>
-
-              
-              <div id='tooltip'></div>
-              <script type="text/javascript">
-                tooltip = document.getElementById('tooltip');
-                resetTooltip = function() { tooltip.innerHTML = ""; }
-             </script>
-            </div>
-          </div>
-
-            </td>
-            <td id="rightBannerContainer">
-            </td>
-            </tr>
-          </table>
-
-      
-      
-      
+            object:focus { outline:none; }
+            #flashContent { display:none; }
+            
+        </style>
+               
+        <script type="text/javascript" src="js/common.min.js?version=1-0-2-2.361816662886696338"></script>
+		<script type="text/javascript" src="js/ga.tracking.js?version=1-0-2-2.361816662886696338"></script>
+					
+	    <!-- Box-Shadowing for IE6-9 -->
+	    <script type="text/javascript" src="js/pie.min.js"> </script>		               
+		<script type="text/javascript" src="js/jquery-1.7.min.js"> </script>    
+        <script type="text/javascript" src="flash/swfobject.js"> </script>
         
-        <iframe id='appcacheInstaller' style="display: none;"></iframe>
+        
+      
+        <script type="text/javascript" >
+		
+        	/*
+        	Test App ID:177256662403483 (Allows localhost)
+			*/
+			window.fbAsyncInit = function() {
+				FB.init({
+		            appId      : '453904584629858',
+		            status     : true, 
+		            cookie     : true,
+		            xfbml      : true,
+		          });
+				FB.Canvas.setSize();
+			}
+			
+			
+			function sizeChangeCallback() {
+			
+				FB.Canvas.setSize();
+			
+			}
+
+			
+			/*
+				When the document has loaded
+			*/
+		    $(document).ready(function(e) {			
+
+		    	if (playerVersion.major < 11) {		    		
+		        	$('#flashContent').show();        	
+		        }
+		        if (IsPhone()) {
+		        	$('#flashContent').show();
+		        	$('#flashContent').html('<div class=\'center error-text\'>Not working on mobile.</div>')
+		        	trackEvent('browser', 'mobile-not-supported');
+		        }
+		        if (!isIEVersionSupported()) {
+		        	$('#flashContent').show();
+		        	$('#flashContent').html('<div class=\'center error-text\'>The browser you are using is outdated. Please update your browser.</div>')
+		        	trackEvent('browser', 'ie-6-7-not-supported');
+		        }
+		        
+     			/* Disable scrolling when mouse over game div */
+		    	$('#flashObject').hover(function() {
+
+		    		if (isFF()) {
+					    
+				    	document.onmousewheel = function(){ stopWheel(); } /* IE7, IE8 */
+				    	if(document.addEventListener){ /* Chrome, Safari, Firefox */
+				    	    document.addEventListener('DOMMouseScroll', stopWheel, false);
+				    	}
+				    } else {		    	    
+			    	    $(document).bind('mousewheel DOMMouseScroll scroll',function(){ 
+		    	        	stopWheel();
+			    	        
+			    	    });			    	   
+		    	    }
+		    	    
+		    	}, function() {
+					if (isFF()) {
+					    				    	
+				    	if(document.removeEventListener){ /* Chrome, Safari, Firefox */
+				    	    document.removeEventListener('DOMMouseScroll', stopWheel, false);
+				    	}
+				    } else {
+ 			    		$(document).unbind('mousewheel DOMMouseScroll scroll'); 			    		
+ 			    	}
+		    	    
+		    	});
+     			
+     			
+		    	$('#fb-share').click(function(e){
+		    		e.preventDefault();
+		    		trackEvent('social_media', 'share');
+		    		FB.ui({
+		    		method: 'feed',
+		    		name: 'Play Angry Birds with the Philadelphia Eagles!',
+		    		link: 'http://www.facebook.com/philadelphiaeagles/app_453904584629858',
+		    		picture: 'http://philadelphia-eagles.appspot.com/images/ab_eagles_share_icon.png',
+		    		caption: "Hut! Hut! Hut! Pass the pig!",
+		    		description: ""
+		    		});
+		    	});
+			});		
+		    
+	   
+		    
+	    </script>  
         <script type="text/javascript">
-          var addIframe = false;
-          if (window.chrome && window.chrome.app && window.chrome.app.isInstalled) {
-            addIframe = true;
-          } else {
-            if (window.applicationCache && window.applicationCache.status == window.applicationCache.IDLE) {
-              
-              var date = new Date();
-              date.setTime(date.getTime() + 60 * 1000);
-              document.cookie = "uninstall=1; expires=" + date.toGMTString() + "; path=/manifest";
-              addIframe = true;
-            }
-          }
-          if (addIframe) {
-            document.getElementById('appcacheInstaller').src = 'http://chrome.angrybirds.com/AppCacheInstaller.html';
-          }
+        var playerVersion = swfobject.getFlashPlayerVersion();
+		      
+		var rndValue = 0;       
+        //If IE, create a random value so flash movie is refreshed when refreshing page. -->
+        
+        if (isIE()) {        
+        	rndValue = Math.random();
+        }
+		
+        if (playerVersion.major > 10 && !IsPhone() && isIEVersionSupported()) {
+        	trackEvent('flash', 'embed');
+            // For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection. 
+            var swfVersionStr = "11.0.0";
+            // To use express install, set to playerProductInstall.swf, otherwise the empty string. 
+            var xiSwfUrlStr = "flash/playerProductInstall.swf";            
+            var flashvars = {assetsUrl: "/flash/", buildNumber:"1-0-2-2.361816662886696338"};                        
+            var params = {};
+            params.quality = "high";
+            params.bgcolor = "#ffffff";
+            params.allowscriptaccess = "sameDomain";
+            params.allowfullscreen = "true";
+            params.wmode = "transparent";
+            var attributes = {};
+            attributes.id = "AngryBirdsPhiladelphiaEagles";
+            attributes.name = "AngryBirdsPhiladelphiaEagles";
+            attributes.align = "middle";
+            swfobject.embedSWF(
+                "/flash/AngryBirdsPhiladelphiaEagles.swf?version=1-0-2-2.361816662886696338&refresh=" + rndValue, "flashContent",
+                "570", "380", 
+                swfVersionStr, xiSwfUrlStr, 
+                flashvars, params, attributes);
+            // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
+            swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+
+        
+        }
+        
         </script>
-
         
-          
-          <iframe style='display: none;' src='http://chrome.angrybirds.com/AppCacheUninstaller.jsp?path=/angrybirds/appcache.nocache.manifest'></iframe>
-          <iframe style='display: none;' src='http://chrome.angrybirds.com/AppCacheUninstaller.jsp?path=/angrybirds111/appcache.nocache.manifest'></iframe>
-          <iframe style='display: none;' src='http://chrome.angrybirds.com/AppCacheUninstaller.jsp?path=/angrybirds112/appcache.nocache.manifest'></iframe>
+        <script type="text/javascript" src="js/swfwheel.js"></script>
         
-
-      
-
+                   
+    </head>
     
-    <noscript>
-      <div class="info-noscript">
-        Your web browser must have JavaScript enabled
-        in order for this application to display correctly.
-      </div>
-    </noscript>
+    <body>   
+    	<!-- FB Sharing -->
+    	<div id="fb-root"></div>
+		<script>
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script> 	    	
+    	
+    	<!-- Use the fluid grid for cross browser compatibility -->
+			
+		<!-- Page start -->        
+	<div id="page" class="">	
+      
+		<div id="header">               		               
+			<!-- <div id="fb-like" class="fb-like" data-href="http://www.facebook.com/philadelphiaeagles" data-send="false" data-layout="button_count" data-width="450" 
+				data-show-faces="false" data-colorscheme="dark" data-font="arial"></div> -->
+			<fb:like id="fb-like" href="http://www.facebook.com/philadelphiaeagles" layout="button_count"
+			  show_faces="false" width="240" height="40"
+			  action="like" colorscheme="light"></fb:like>
+			<fb:like id="fb-ab-like" href="http://www.facebook.com/angrybirds" layout="button_count"
+			  show_faces="false" width="240" height="40"
+			  action="like" colorscheme="light"></fb:like>
+			<div id="logo" class="right"> </div>
+        </div>
+           
+		<div class="clear"></div>
+						
+      	
+<!-- Social Sharing -->	
 
-    <script type="text/javascript">
-      if (window.self != window.top && window.top.location.host.match("^[a-zA-Z]*\.angrybirds\.com") == null) {
-        setInterval(function() {
-                         var content = document.getElementById('content');
-                         content.parentNode.style.display = 'none';
-                         var playn = document.getElementById('playn-root');
-                         if (playn != null) playn.parentNode.removeChild(playn);
-                    }, 500);
-      }
-    </script>
+<!-- Flash Wrapper -->
+<div id="flashObject">
 
-  </body>
+	<!-- Flash content-->	
+	<div id="flashContent">
+		<!-- Flash start -->		
+		<div id="install-flash-div" class="error-text">
+			To view this page ensure that Adobe Flash Player version 10.2.0 or greater is installed. <br /> 
+			<a href="http://get.adobe.com/flashplayer/" target="_blank">http://get.adobe.com/flashplayer/</a>
+		</div>
+		
+		<script type="text/javascript">
+			trackEvent('flash', 'prompt-install');
+		</script>
+	</div>
+
+	<div id="frame-eagle-logo" class="left"></div>
+
+	<!-- Flash End -->
+	<noscript>
+		<div id="install-flash-div" class="error-text">
+				To view this page ensure that Javascript in enabled in your browser.
+		</div>
+	</noscript>
+</div>
+
+<div id="frame-lower-border" class="left"></div>
+<!-- Wrapper End -->
+
+<div class="clear"></div>				 
+                	   		 	
+  		 	
+  		<div class="clear"> </div>
+
+  		<div id="buttons"> 
+	  		<a href="http://apps.facebook.com/angrybirds/" onclick="trackEvent('links', 'Angry Birds');" target="_blank"> <img id="friendsLogo" src="/images/friendsLogo.png"/></a>
+	  		<a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.facebook.com%2Fphiladelphiaeagles%2Fapp_453904584629858" target="_blank" id="fb-share"><img id="shareGameText" src="/images/shareGameText.png"/></a>
+	  		<a href="http://www.philadelphiaeagles.com/" onclick="trackEvent('links', 'Philadelphia Eagles');" target="_blank" ><img id="philLogo" src="/images/philLogo.png"/></a>
+  		</div>
+
+	</div>	
+	<!-- page end -->
+	
+	<!-- Footer -->
+	 <div id="footer" class="left">    	   		 	   		 	 	   		 	 
+     <div id="legaltext" class="left small-text">                 
+     © 2012 Rovio Entertainment Ltd. Angry Birds. <a class="" onclick="trackEvent('links','eula');" href="http://www.rovio.com/eula/" target="_blank">EULA</a> <a class="" onclick="trackEvent('links','privacy-policy');" href="http://www.rovio.com/Privacy/" target="_blank">Privacy Policy</a>
+	 </div>
+	 <a class="link-rovio" href="http://www.rovio.com/" onclick="trackEvent('links','rovio');" target="_blank">
+	 	<img src="./images/rovioLogo.png" alt="Rovio"/>
+	 </a>
+</div>
+   	   		   
+   </body>
 </html>

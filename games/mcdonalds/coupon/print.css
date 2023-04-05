@@ -1,0 +1,92 @@
+#logo {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#faqButton {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#burgers {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#yellow-div {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#couponObject {
+	left: 0 !important;
+	margin: 0 !important;
+	border-radius: 0 !important;
+	border: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+#printButton
+{
+	display: none !important;
+	visibility: hidden !important;
+}
+#couponImageLink
+{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#footer-game
+{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#skyline-div
+{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+html {
+	background: none;
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 51%, #ffffff 100%);
+
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 51%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 51%, #ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 51%, #ffffff 100%);
+	background: linear-gradient(top, #ffffff 0%, #ffffff 51%, #ffffff 100%); /* W3C */
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+#small-text
+{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#couponObject {
+	behavior: 0 !important;
+	
+}
+
+#page-header {
+	background: none;
+}
+
+.border-box {
+	behavior: 0 !important;
+}
+
+#couponImage
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: auto;
+	width: 100%;
+}

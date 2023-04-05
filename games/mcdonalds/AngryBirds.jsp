@@ -1,0 +1,246 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">    
+    <head>    			    
+        
+
+
+
+        
+        <title>《愤怒的小鸟麦当劳特别版》线上游戏</title>        		
+		
+		<meta name="title" content="Angry Birds" />
+		<meta name="description" content="" />	        
+		
+		<meta property="og:image" content="http://mcd.angrybirds.com/images/icon_share.jpg"/>
+		<meta property="og:title" content="Angry Birds McDonald's" />
+		<meta property="og:url" content="http://mcd.angrybirds.com/" />      
+        
+        <meta name="google" value="notranslate" />
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Cache-Control" content="Public"/>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		
+		
+        	<meta http-equiv="Expires" content="Mon, 31 Dec 2013 12:00:00 GMT"/>
+        
+           
+        <!-- Fancybox -->        
+		<link rel="stylesheet" type="text/css" href="/ext/fancybox/jquery.fancybox-1.3.4.min.css" media="screen" />
+        <!-- CSS for Common-->
+        <link href="css/common.min.css?version=1-0-7-0.363190984711418768" type="text/css" rel="stylesheet"/>
+         <link href="css/sprite_sheet.min.css?version=1-0-7-0.363190984711418768" type="text/css" rel="stylesheet"/>        
+        <!-- CSS for Layout -->
+        <link href="css/fluid_grid.css" type="text/css" rel="stylesheet"/>
+        
+		
+        <style type="text/css" media="screen"> 
+            
+            object:focus { outline:none; }
+            #flashContent { display:none; }
+            
+        </style>
+        
+        <script type="text/javascript" src="js/jquery-1.7.min.js"> </script>          
+
+	    <!-- Box-Shadowing for IE6-9 -->
+	    <script type="text/javascript" src="js/pie.min.js"> </script>		               
+	    		 
+        <script type="text/javascript" src="flash/swfobject.min.js"> </script>
+
+        <script type="text/javascript" src="js/jsSharedObject.min.js"> </script>
+        
+        <!-- Fancybox -->
+        <script type="text/javascript" src="/ext/fancybox/jquery.easing-1.3.pack.js"></script>
+		<script type="text/javascript" src="/ext/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+		<script type="text/javascript" src="/ext/fancybox/jquery.fancybox-1.3.4.min.js"></script>   
+		<script type="text/javascript" src="/js/common.min.js?version=1-0-7-0.363190984711418768"></script>
+        <script type="text/javascript" >
+	        /*
+			 * Block the page from being loaded in an iFrame
+			 */
+		    if (self != top) {
+		   		top.location = self.location;
+		    }
+			
+			/*
+				When the document has loaded
+			*/
+		    $(document).ready(function(e) {		    	
+		    	if (playerVersion.major < 11) {		    		
+		        	$('#flashContent').show();        	
+		        }
+		        if (IsPhone()) {
+		        	$('#flashContent').show();
+		        	$('#flashContent').html('<div class=\'center error-text\'>Not working on mobile.</div>')
+		        }
+		        if (!isIEVersionSupported()) {
+		        	$('#flashContent').show();
+		        	$('#flashContent').html('<div class=\'center error-text\'>The browser you are using is outdated. Please update your browser.</div>')
+		        }
+		        
+     			/* Disable scrolling when mouse over game div */
+		    	$('#flashObject').hover(function() {
+
+		    		if (isFF()) {
+					    
+				    	document.onmousewheel = function(){ stopWheel(); } /* IE7, IE8 */
+				    	if(document.addEventListener){ /* Chrome, Safari, Firefox */
+				    	    document.addEventListener('DOMMouseScroll', stopWheel, false);
+				    	}
+				    } else {		    	    
+			    	    $(document).bind('mousewheel DOMMouseScroll scroll',function(){ 
+		    	        	stopWheel();
+			    	        
+			    	    });			    	   
+		    	    }
+		    	    
+		    	}, function() {
+					if (isFF()) {
+					    				    	
+				    	if(document.removeEventListener){ /* Chrome, Safari, Firefox */
+				    	    document.removeEventListener('DOMMouseScroll', stopWheel, false);
+				    	}
+				    } else {
+ 			    		$(document).unbind('mousewheel DOMMouseScroll scroll'); 			    		
+ 			    	}
+		    	    
+		    	});
+			});		
+			
+			// Retreives the lang attribute.
+			function getLanguage()
+			{
+				return 'null';
+			}
+		    
+	    </script>  
+        <script type="text/javascript">
+        var playerVersion = swfobject.getFlashPlayerVersion();
+		      
+		var rndValue = 0;       
+        //If IE, create a random value so flash movie is refreshed when refreshing page. -->
+        
+        if (isIE()) {        
+        	rndValue = Math.random();
+        }
+		
+        if (playerVersion.major > 10 && !IsPhone() && isIEVersionSupported()) {
+            // For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection. 
+            var swfVersionStr = "11.0.0";
+            // To use express install, set to playerProductInstall.swf, otherwise the empty string. 
+            var xiSwfUrlStr = "flash/playerProductInstall.swf";
+            var flashvars = {assetsUrl: "/flash/", buildNumber:"1-0-7-0.363190984711418768"};           	  
+            var params = {};
+            params.quality = "high";
+            params.bgcolor = "#ffffff";
+            params.allowscriptaccess = "sameDomain";
+            params.allowfullscreen = "true";
+            params.wmode = "direct";
+            var attributes = {};
+            attributes.id = "AngryBirdsFP11";
+            attributes.name = "AngryBirdsFP11";
+            attributes.align = "middle";
+            swfobject.embedSWF(
+                "flash/AngryBirdsMcDonalds.swf?version=1-0-7-0.363190984711418768&refresh=" + rndValue, "flashContent",
+                "980", "570", 
+                swfVersionStr, xiSwfUrlStr, 
+                flashvars, params, attributes);
+            // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
+            swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+
+        }
+        </script>
+        <script type="text/javascript" src="js/swfwheel.js"></script>                  
+    </head>
+    <body>    
+    
+    	<div id="yellow-div"></div>
+    	    	
+    	<!-- Use the fluid grid for cross browser compatibility -->    	
+        <div id="page" class="container container_12">	<!-- Page start -->
+				<div id="header">
+               		
+               		<!-- Logo -->                
+                    <div id="logo" class="left"> </div>
+                    <a href="/html/faq.html" onclick="displayFAQ(); return false;">
+                    	<div class="sprite sprite-roundRedDefault-png left" id="faqButton"></div>
+                    </a>
+                    
+                    <a href="/html/faq.html" onclick="displayMagic(); return false;">
+                    	<div class="left" id="magicButton"></div>
+                    </a>
+                    
+                    <!-- Hamburger images -->
+                    <div id="burgers" class="right"> </div>
+	            </div>
+	            
+				<div class="clear"> </div>
+						
+				<div id="left-banner">
+					<iframe id="left_banner_iframe" src="ads?position=left" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+				</div>	
+				<div id="right-banner">
+					<iframe id="right_banner_iframe" src="ads?position=right" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+				</div>
+				
+        		
+<!-- Flash Wrapper -->
+<div id="flashObject">
+	<!-- Flash content-->	
+	<div id="flashContent">
+		<!-- Flash start -->		
+		<div id="install-flash-div" class="error-text">
+			To view this page ensure that Adobe Flash Player version 11.0.0 or greater is installed. <br /> 
+			<a href="http://get.adobe.com/flashplayer/" target="_blank">http://get.adobe.com/flashplayer/</a>
+		</div>
+	</div>
+	<!-- Flash End -->
+	<noscript>
+	<div id="install-flash-div" class="error-text">
+			To view this page ensure that Javascript in enabled in your browser.
+	</div>
+</noscript>
+</div>
+<!-- Wrapper End -->
+<div class="clear"></div>
+
+
+        		<div id="shareButtons">
+        			<a href="javascript:;" onclick="postToQQ()">
+	        			<div class="sprite sprite-blueShareButton-png" id="blueShareButton" class="left"></div>
+	        		</a>
+	        		<a href="javascript:;" onclick="postToWeibo()">
+	        			<div class="sprite sprite-redShareButton-png" id="redShareButton" class="left"></div>
+	        		</a>
+	        		<div id="BrowserArea">
+	        			<div id="BrowserIcon"></div>
+	        		</div>
+        		</div>
+        		
+				<!-- Footer -->
+				<div class="clear"> </div>
+				<div id="footer-game">
+				<div id="legaltext" class="left ">                
+				    <span class="small-text"> 		
+						© 2012 罗威欧娱乐有限公司。版权所有。<br/>
+						《Angry Birds》和《愤怒的小鸟》是罗威欧娱乐有限公司的商标。<br/>
+						<a class="" href="http://www.rovio.com/eula/" target="_blank">服务使用协议</a> <a class="" href="http://www.rovio.com/Privacy/" target="_blank">隐私权申明</a> 		
+					</span>	
+				</div> 
+				</div> 
+                <div class="clear"> </div>
+				<!-- Legal info -->
+				  		    		
+			</div>	<!-- page end -->
+			
+<div id="page-footer" class="container">
+			
+     
+
+</div>		
+
+<div id="skyline-div"></div>		
+   </body>
+</html>

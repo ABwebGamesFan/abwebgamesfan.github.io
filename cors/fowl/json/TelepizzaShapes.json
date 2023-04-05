@@ -1,0 +1,6 @@
+{
+	"MISC_FOOD_CIRCLE_TOMATO": {"type": "CIRCLE", "radius": 20.0, "offsetY": 5.0},
+	"M_HELMET": {"type": "POLYGON", "vertices": [[-40.6, -12.4], [-13.6, -25.0], [13.6, -25.0], [40.6, -12.4], [40.6, 0.0], [-40.6, 0.0]]},
+	"CAP_S": {"type": "RECTANGLE", "width": 25.0 , "height": 10.0, "offsetX": 5.0, "offsetY": 0.0},
+	"CAP_L": {"type": "RECTANGLE", "width": 50.0 , "height": 15.0, "offsetX": 5.0, "offsetY": 0.0}
+}

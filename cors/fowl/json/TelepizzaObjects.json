@@ -1,0 +1,10 @@
+{
+	"HELMET_M": {"type": "BLOCK_FRONT", "material": "PIG_HELMET", "shape": "M_HELMET", "score": 5000, "maxHealth": 15, "damagedFrameCount": 1, "editorGroup": "EPISODE_GROUP"},
+	"CAP_S": {"type": "BLOCK_FRONT", "material": "EASTER_EXTRAS", "shape": "CAP_S", "score": 0, "damagedFrameCount": 1, "maxHealth": 5, "editorGroup": "EPISODE_GROUP"},
+	"CAP_L": {"type": "BLOCK_FRONT", "material": "EASTER_EXTRAS", "shape": "CAP_L", "score": 0, "damagedFrameCount": 1, "maxHealth": 5, "editorGroup": "EPISODE_GROUP"},
+	"TOMATO": {"type": "BLOCK_MISC", "material": "TELEPIZZA_TOMATO", "shape": "MISC_FOOD_CIRCLE_TOMATO", "score": 1000, "damagedFrameCount": 1, "maxHealth": 3, "editorGroup": "EPISODE_GROUP"},
+	"JALAPENOCRATE": {"type": "BLOCK_MISC", "material": "MISC_TNT", "shape": "MISC_METAL_TNT", "score": 500, "damagedFrameCount": 1, "maxHealth": 8, "editorGroup": "EPISODE_GROUP"},
+	"PIZZABOX": {"type": "BLOCK_BASIC", "material": "BLOCK_WOOD", "shape": "BLOCK_RECT_4X4", "damagedFrameCount": 4, "score": 500, "maxHealth": 120, "editorGroup": "EPISODE_GROUP"},
+
+	"GROUND_HILLS": {"type": "GROUND", "material": "PIZZA_CRUST", "shape": "GROUND", "score": 0, "editorGroup": "NO_GROUP"}
+}

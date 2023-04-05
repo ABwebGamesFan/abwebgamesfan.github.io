@@ -1,0 +1,20 @@
+{
+	"chapters" : [
+	  {
+	  	"name" : "1",
+		"levelsPerPage" : 6,
+		"rowsPerPage" : 2,
+		"pages" : 1,
+		"pageIndexes" : ["1"],
+		"menuImage" : "CHAPTER_SELECTION_CHAPTER1",
+		"featherBoxImage": "POPUP_ME_EP1",
+		"leftCorner" : "LEVESELECTION_LEFT_CORNER_1", 
+		"rightCorner" : "LEVESELECTION_RIGHT_CORNER_1",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_0", "LEVESELECTION_LEVEL_BG_SPECIAL"
+		],
+		"freeEpisode" : true,
+		"locked" : false
+	  }
+	  ]
+}

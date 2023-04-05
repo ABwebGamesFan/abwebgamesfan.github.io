@@ -1,0 +1,253 @@
+.frame {
+  /* width: 1262px; */
+  width: 1114px;
+  margin: 0 auto;
+}
+.row-separator {
+  padding-top: 40px;
+  clear: both;
+}
+.row-separator:last-child {
+  padding-bottom: 40px;
+}
+
+#bkg-ribbon {
+  background-image: url('Images/bkg-ribbon.png');
+  height: 400px;
+  width: 100%;
+  background-repeat: repeat-x;
+  position: absolute;
+  top: 736px;
+  min-width: 1262px;
+}
+#footer {
+  background-image: url('Images/bkg-footer2.png');
+  background-repeat: repeat-x;
+  width: 100%;
+  padding-bottom: 40px;
+  min-width: 1256px;
+}
+#footer a, #footer a:visited {
+  color: #FFF;
+}
+#footer a:hover {
+  color: #EEE;
+}
+#game {
+  border-radius: 10px;
+}
+#game html, #game body {
+  border-radius: 10px;
+}
+#game-area {
+	background-color: #9B3721;
+}
+#header {
+  height: 352px;
+  position: relative;
+}
+#header-splash {
+  width: 808px;
+  height: 807px;
+  background-image: url('Images/img-head-2.png');
+  /*left: 400px;*/
+  left: 330px;
+  top: -255px;
+  position: absolute;
+}
+#landing-page-content {
+  position: relative;
+  top: -60px;
+}
+a, a:visited {
+  color: #f9e04d;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffec7e;
+}
+a.sm-button {
+  display: block;
+  width: 32px;
+  height: 0;
+  background-image: url('Images/facebook.png');
+  background-repeat: no-repeat;
+  padding-top: 39px;
+  overflow: hidden;
+  margin-left: 17px;
+  float: right;
+}
+a#sm-facebook {
+
+}
+a#sm-youtube {
+
+  background-image: url('Images/youtube.png');
+}
+a#sm-twitter {
+
+  background-image: url('Images/twitter.png');
+}
+a#sm-linkedIn {
+ 
+  background-image: url('Images/linkedin.png');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('Images/bkg-repeat.jpg');
+  background-color: #3c1111;
+  background-repeat: repeat-x;
+  color: #f1f1f1;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  /*line-height: 2em;*/
+  line-height: 25px;
+}
+div.box {
+  border-radius: 6px;
+  background-color: #9d3526;
+  padding: 10px;
+}
+div.box-border {
+  border-radius: 12px;
+  border: 3px solid #f9e04d;
+}
+div.box-full {
+  float: left;
+}
+div.box-left {
+  float: left;
+  /*width: 650px;*/
+  width: 565px;
+}
+div.box-right {
+  float: right;
+  /*width: 570px;*/
+  width: 515px;
+}
+div.copyright {
+  float: left;
+}
+div.social-media {
+  float: right;
+  width: 400px;
+}
+div.video-bottom-border {
+  background-color: #000000;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  /*width: 650px;*/
+  width: 565px;
+  height: 10px;
+}
+div.video-top-border {
+  background-color: #000000;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  /*width: 650px;*/
+  width: 565px;
+  height: 10px;
+}
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+h1#logo-angry-birds {
+  display: block;
+  position: absolute;
+  background-image: url('Images/angrybirds-logo.png');
+  width: 290px;
+  height: 0px;
+  padding-top: 66px;
+  overflow: hidden;
+  /*top: 54px;
+  left: 20px;*/
+  top: 70px;
+  left: 10px;
+}
+h1#logo-tyrkisk-peber {
+  width: 195px;
+  height: 0;
+  position: absolute;
+  background-image: url('Images/tyrkiskpeber-logo.png');
+  display: block;
+  top: 19px;
+  padding-top: 113px;
+  overflow: hidden;
+  /*left: 1065px;*/
+  left: 920px;
+}
+h2#punch-line {
+  background-image: url('Images/text-head.png'); 
+  width: 542px;
+  height: 0;
+  padding-top: 65px;
+  overflow: hidden;
+  /*top: 182px;
+  left: 20px;*/
+  position: absolute;
+  top: 190px;
+  left: 10px;
+}
+h3 {
+  margin: 5px 0 12px 0;
+}
+h3.kilpailun-saannot {
+  /* background-image: url('Images/kilpailun-saannot.png');
+  background-position: -800px -687px;
+  background-repeat: no-repeat; 
+  height: 0;
+  padding-top: 32px; 
+  overflow: hidden; */
+  color: yellow;
+  font-family: VelvetRegular;
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+@font-face 
+{
+    font-family: 'VelvetRegular';
+    src: url('../css/velvet-regular-webfont.eot');
+    src: url('../css/velvet-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/velvet-regular-webfont.woff') format('woff'),
+         url('../css/velvet-regular-webfont.ttf') format('truetype'),
+         url('../css/velvet-regular-webfont.svg#VelvetRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h3.tyrkisk-peber-volcano {
+  background-image: url('Images/tyrkisk-peber-volcano.png');
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 30px;
+  overflow: hidden;
+}
+img {
+  border: none;
+}
+img.text-wrap {
+  float: left;
+  vertical-align: top;
+  clear: both;
+  padding: 4px 10px 10px 4px;
+}
+
+#gamebox {
+	padding-left: 9px;
+	/* width: 1248px; 
+	height: 750px; */
+	width: 1100px;
+	height: 620px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+}
+
+

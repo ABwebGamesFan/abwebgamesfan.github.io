@@ -1,0 +1,354 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* prevent selection */
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	user-select: none;
+}
+
+html {
+	height: 100%;
+	width: 100%
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background: #9B3721;
+	/*  Webkit */
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	/*  Mozilla */
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	/*  Standard */
+	display: box;
+	box-orient: horizontal;
+	box-pack: center;
+	box-align: center;
+	text-align: center;
+}
+
+img {
+	border: 0px;
+}
+
+#playn-root {
+	position: relative;
+	margin: auto;
+	z-index: 100;
+	border-radius: 3px;
+	width: 640px; /* initial size for loading = SD size */
+	height: 480px;
+}
+
+#playn-root canvas{
+	/* prevent selection */
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	user-select: none;
+}
+
+#loading {
+	margin-top: 166px;
+	/* loading image height: 148, therefore: (480 / 2) - (148 / 2) = 166 */
+	text-align: center;
+}
+
+.buttons {
+	text-align: left;
+	width: 100%;
+}
+
+.buttoncontainer {
+	/*
+	height: 62px;
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
+	*/
+}
+
+.appcache-status {
+	display: inline;
+	font-size: 12px;
+	font-family: verdana;
+	line-height: 51px;
+	padding: 8px;
+}
+
+.appcache-status-content {
+	float: left;
+	margin-top: 3px;
+}
+
+.gamecont {
+	margin-top: 5px;
+	text-align: center;
+}
+
+#buttonbugcont {
+	position: fixed;
+	border: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+.bg-body-left {
+	background: url(../images/bg-body-left.png) no-repeat;
+	height: 349px;
+	width: 203px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -100;
+}
+
+.bg-body-right {
+	background: url(../images/bg-body-right.png) no-repeat;
+	height: 349px;
+	width: 203px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: -100;
+}
+
+.button {
+	background: url(../images/shortbutton_deselected2.png) no-repeat;
+	width: 136px;
+	height: 58px;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+	border: 0px;
+	margin-right: 5px;
+	margin-left: -4px;
+}
+
+.button:hover {
+	background: url(../images/shortbutton_selected.png) no-repeat;
+	padding-right: 0px;
+	border: 0px;
+}
+
+.button#on {
+	background: url(../images/shortbutton_selected.png) no-repeat;
+}
+
+.buttonimg {
+	padding-top: 16px;
+	padding-bottom: 13px;
+}
+
+.sorry-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 644px;
+	margin-left: -322px;
+	height: 484px;
+	margin-top: -242px;
+	background: #000 url(../validate/sorry-pigs.png) no-repeat bottom right;
+	text-align: left;
+}
+
+.sorry {
+	padding: 0em 1em;
+	font-size: 16pt;
+	color: #fff;
+	font-family: sans-serif;
+	color: #fff;
+	left: 50%;
+	color: #fff;
+	line-height: 1.4em;
+}
+
+.sorry .larger {
+	font-size: 1.2em;
+}
+
+.sorry .smaller {
+	font-size: 0.85em;
+}
+
+a,a:VISITED {
+	color: #3aa0ff;
+}
+
+.sorry p,.sorry table {
+	margin: 1em 0em;
+}
+
+.sorry ol {
+	margin-left: 2em;
+}
+
+.sorry li {
+	margin: 1em;
+}
+
+.ad-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ad-table td {
+	padding: 0.3em;
+	vertical-align: top;
+}
+
+.ads {
+	margin-top: 5px;
+}
+
+.loginLink {
+	position: absolute;
+	font-size: 1.2em;
+	left: 50px;
+	top: 20px;
+}
+
+.require-ipad {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 604px;
+	margin-left: -302px;
+	height: 210px;
+	margin-top: -105px;
+}
+
+.require-iphone {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 604px;
+	margin-left: -302px;
+	height: 210px;
+	margin-top: -105px;
+}
+
+.require-android {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 614px;
+	margin-left: -307px;
+	height: 210px;
+	margin-top: -105px;
+}
+
+.info-noscript {
+	width: 22em;
+	position: absolute;
+	left: 50%;
+	margin-left: -11em;
+	color: red;
+	background-color: white;
+	border: 1px solid red;
+	padding: 4px;
+	font-family: sans-serif;
+}
+
+.logo {
+	width: 66px;
+	height: 66px;
+}
+
+.social-container {
+	height: 40px;
+}
+
+#playn-root .gwt-PopupPanel{
+	position: absolute;
+	height: 100%; 
+	width: 100%;
+	background-image:url('../images/highscore_bg.png');
+	background-repeat:no-repeat;
+	background-size: 100%;
+	color:white;
+	font-family: VelvetRegular;	
+	font-size:22px;
+}
+  	
+@font-face {
+    font-family: 'VelvetRegular';
+    src: url('velvet-regular-webfont.eot');
+    src: url('velvet-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('velvet-regular-webfont.woff') format('woff'),
+         url('velvet-regular-webfont.ttf') format('truetype'),
+         url('velvet-regular-webfont.svg#VelvetRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.popupContent{
+	height:100%; 
+	width:100%;
+}
+
+#leaderBoardContainer .gwt-PopupPanel{
+	position: relative!important;
+	color:#ffec8e;
+	font-family:Tahoma;
+}
+
+.gwt-ListBox{
+	width:120px;
+}
+
+.gwt-TextBox{
+	/* prevent selection */
+	-webkit-user-select: text !important;
+	user-select: text !important;	
+	background-color: rgb(170, 170, 170);
+	border-color: grey;
+}
+
+.green{
+	color:green;			
+}
+
+.red{
+	color:red;		
+	width:70px;	
+}
+
+#leaderBoardContainer{
+	width:280px;
+	height:427px;
+	background-image:url('../images/highscores.png');
+	background-repeat:no-repeat;
+	font-size:13px;
+}
+
+#leaderBoardContainer table{
+	padding-top: 95px;
+    padding-left: 30px;
+    border-spacing: 0px;
+    height:370px;
+    overflow:hidden;
+ }
+ 
+ #leaderBoardContainer table td{
+ 	height:10px;
+ 	padding:0em 0.3em;
+ }
+ 
+ .preload-background{
+ 	position: absolute;
+   	overflow: hidden;
+   	left: -9999px; 
+   	top: -9999px;
+   	height: 1px;
+   	width: 1px;
+ 	background-image:url('../images/highscore_bg.png');
+ 	font-family: VelvetRegular;
+ }

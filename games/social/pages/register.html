@@ -1,0 +1,137 @@
+<style>
+#register-pop-up {
+	margin:370px;
+}
+	
+#register-pop-up-FBC {
+	position:absolute;
+	
+	z-index: 4;
+}
+
+#register-pop-up-content {
+	padding:0px;
+	background-image: url('http://dev.angrybirds.com/ab2/img/RegistrationBg.png');
+	background-repeat: no-repeat;
+	width:552px;
+	height:494px;
+	position:relative;
+	left:-276px;
+	top:-247px;
+	
+	text-align:center;
+}
+
+#register-pop-up-username {
+	position: absolute;
+	top:110px;
+	left:115px;
+	width:200px;
+	z-index:3;
+	border-width:0px;
+	border-style: none;
+}
+#register-pop-up-email {
+	position: absolute;
+	top:149px;
+	left:115px;
+	width:200px;
+	z-index:3;
+	border-width:0px;
+	border-style: none;
+}
+#register-pop-up-password {
+	position: absolute;
+	top:188px;
+	left:115px;
+	width:200px;
+	z-index:3;
+	border-width:0px;
+	border-style: none;
+}
+#register-pop-up-password-check {
+	position: absolute;
+	top:225px;
+	left:135px;
+	width:160px;
+	z-index:3;
+	border-width:0px;
+	border-style: none;
+}
+
+#register-pop-up-captcha-text {
+	position: absolute;
+	top:335px;
+	left:135px;
+	width:160px;
+	z-index:3;
+	border-width:0px;
+	border-style: none;	
+}
+
+#register-pop-up-button {
+	position: absolute;
+	top:155px;
+	left:390px;	
+}
+#register-pop-up-close {
+	position: absolute;
+	top:5px;
+	left:507px;	
+}
+
+#register-pop-up-login {
+	position: absolute;
+	top:315px;
+	left:140px;	
+}
+</style>			
+			
+<div id="register-pop-up"> 
+	<div id="register-pop-up-content"> 
+	<form name="register-form"> 
+		<input id="register-pop-up-username" type="text" name="username"> 
+		<input id="register-pop-up-email" type="text" name="email"> 
+		<input id="register-pop-up-password" type="password" name="password"> 
+		<a style="z-index:4;font-family:Arial;font-size:10px;position:absolute;top:420px;left:200px;text-decoration:none;" href="#" onclick="setPopUp('login-pop-up');"> Log In</a> 
+		<img src="http://dev.angrybirds.com/ab2/img/RedBanner.png" style="position:absolute;left:-25px;top:18px;z-index:1;" /> 
+		<img  src="http://dev.angrybirds.com/ab2/img/RegistrationTitle.png" style="position:absolute;left:55px;top:35px;z-index:2;" /> 
+		<img  src="http://dev.angrybirds.com/ab2/img/BannerBirdies.png" style="position:absolute;left:355px;top:-40px;z-index:1;" /> 
+		<img  src="http://dev.angrybirds.com/ab2/img/BannerPiggies.png" style="position:absolute;left:10px;top:-55px;z-index:1;" /> 
+		<img onClick="setPopUp(false);" src="http://dev.angrybirds.com/ab2/img/RegistrationClose.png" style="position:absolute;left:510px;top:8px;z-index:2;cursor:pointer;" /> 
+
+		<img  src="http://dev.angrybirds.com/ab2/img/TextField.png" style="position:absolute;left:108px;top:100px;z-index:2;" /> 
+		<img  src="http://dev.angrybirds.com/ab2/img/TextField.png" style="position:absolute;left:108px;top:140px;z-index:2;" /> 
+		<img  src="http://dev.angrybirds.com/ab2/img/TextField.png" style="position:absolute;left:108px;top:180px;z-index:2;" /> 
+	
+		<img id="reg-user-okay" src="http://dev.angrybirds.com/ab2/img/ChecmarkSmall.png" style="display:none;position:absolute;left:330px;top:108px;z-index:4;" />
+		<img id="reg-user-wrong" src="http://dev.angrybirds.com/ab2/img/RegistrationClose.png" style="display:none;position:absolute;left:330px;top:108px;z-index:4;" />
+		<img id="reg-email-okay" src="http://dev.angrybirds.com/ab2/img/ChecmarkSmall.png" style="display:none;position:absolute;left:330px;top:148px;z-index:4;" />
+		<img id="reg-email-wrong" src="http://dev.angrybirds.com/ab2/img/RegistrationClose.png" style="display:none;position:absolute;left:330px;top:146px;z-index:4;" />
+		<img id="reg-pass-okay" src="http://dev.angrybirds.com/ab2/img/ChecmarkSmall.png" style="display:none;position:absolute;left:330px;top:186px;z-index:4;" />
+		<img id="reg-pass-wrong" src="http://dev.angrybirds.com/ab2/img/RegistrationClose.png" style="display:none;position:absolute;left:330px;top:186px;z-index:4;" />
+	 
+		<img src="http://dev.angrybirds.com/ab2/img/DividerVertical.png" style="position:absolute;left:360px;top:95px;z-index:3;" /> 
+	 	<div id="register-green-button" style="position:absolute;left:120px;top:235px;width:160px;height:100px;">
+			<img src="http://dev.angrybirds.com/ab2/img/BirdsDeco.png" onclick="doRegister();" style="position:absolute;left:3px;top:0px;z-index:3;cursor:pointer;" /> 
+			<img onmouseover="this.src='http://dev.angrybirds.com/ab2/img/SignUpButtonHover.png';" 
+				onmouseout="this.src='http://dev.angrybirds.com/ab2/img/SignUpButton.png';" onclick="doRegister();" 
+				src="http://dev.angrybirds.com/ab2/img/SignUpButton.png" style="position:absolute;left:0px;top:50px;z-index:2;cursor:pointer;" /> 
+		</div>
+		<img src="http://dev.angrybirds.com/ab2/img/RegistrationPaper.png" style="position:absolute;left:-17px;top:400px;z-index:1;" /> 
+		<img src="http://dev.angrybirds.com/ab2/img/AngryBirdsLogoSmall.png" style="position:absolute;left:40px;top:425px;z-index:2;" /> 
+	</form> 
+
+	<div style="font-family:Arial;font-size:10pt;position:absolute;top:111px;left:28px;">Screen name</div> 
+	<div style="font-family:Arial;font-size:10pt;position:absolute;top:151px;left:28px;">Email</div> 
+	<div style="font-family:Arial;font-size:10pt;position:absolute;top:191px;left:28px;">Password</div> 
+
+	<div id="register-pop-up-FBC" style="cursor:pointer;font-family:Arial;font-size:10pt;color:gray;left:385px;top:130px;"><p style="line-height:10px;">or</p> 
+			<img onclick="doFacebookLogin(); return false;" 
+				border="0" 
+				id="fb_login_image" 
+				src="http://static.ak.fbcdn.net/images/fbconnect/login-buttons/connect_light_large_short.gif" 
+				alt="Connect"/> 
+	</div> 
+	</div> 
+</div>

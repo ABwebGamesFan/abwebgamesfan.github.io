@@ -1,0 +1,250 @@
+<style>
+.money-bar {
+	position:absolute;
+	top:10px;
+	left:680px;
+	width:368px;
+	height:94px;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/MiniProfile_Bg.png');
+	background-repeat: no-repeat;
+	font-family:Arial;
+	font-size:14px;
+	color: #236B8E;
+	text-align:left;
+	padding:6px 12px 0px 14px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.money-bar a  {color: #236B8E;text-decoration:none;}
+.money-bar a:hover {color: #00486B;}
+#log-sign-in {
+	position:absolute;
+	left:202px;
+	line-height:22px;
+}
+#log-out {
+	position:absolute;
+	left:202px;
+	line-height:22px;
+	display:none;
+}
+
+a  {color: #fefefe;text-decoration:none;}
+a:hover {color: #fefefe;}
+
+#coins {
+	position:absolute;
+	left:55px;
+    top:55px;
+	width:50px;
+	height:32px;
+	color: #236B8E;
+   	text-shadow: -1px 0 #6CBCFE, 0 1px #6CBCFE, 1px 0 #6CBCFE, 0 -1px #6CBCFE;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/CoinsIcon.png');
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	text-align:right;
+	cursor:default;
+	line-height: 32px;
+}
+
+#cash {
+	position:absolute;
+	left:110px;
+    top:55px;
+	width:36px;
+	height:32px;
+	color: #236B8E;
+    text-shadow: -1px 0 #6CBCFE, 0 1px #6CBCFE, 1px 0 #6CBCFE, 0 -1px #6CBCFE;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/GoldenEggIcon.png');
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	text-align:right;
+	cursor:default;
+	line-height: 32px;
+}
+
+#add-cash {
+	position:absolute;
+	left:155px;
+    	top:58px;
+	width:27px;
+	height:26px;
+	color: #236B8E;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/ButtonPlus_Out.png');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-align:right;
+	cursor:pointer;
+}
+#add-cash:hover {
+	background-image: url('http://dev.angrybirds.com/ab2/img2/ButtonPlus_over.png');
+}
+.add-cash-down { 
+   background-image: url('http://dev.angrybirds.com/ab2/img2/ButtonPlus_Down.png') !important;
+}
+
+
+#piggy {
+	position:absolute;
+	left:9px;
+    	top:52px;
+	width:45px;
+	height:43px;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/PiggyBankIconSmall.png');
+	background-repeat: no-repeat;
+}
+
+#get-more {
+	display:none;
+	position:absolute;
+	left:292px;
+    	top:20px;
+	width:63px;
+	height:22px;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/btn2_out.png');
+	color: #eeeeee;
+	font-size:10px;
+	line-height:20px;
+	text-align:center;
+    	text-shadow: -1px 0 #236B8E, 0 1px #236B8E, 1px 0 #236B8E, 0 -1px #236B8E;
+	cursor:pointer;
+}
+#get-more:hover {
+	background-image: url('http://dev.angrybirds.com/ab2/img2/btn2_over.png');
+}
+.get-more-down { 
+   background-image: url('http://dev.angrybirds.com/ab2/img2/btn2_down.png') !important;
+}
+
+#edit-button {
+	display:none;
+	position:absolute;
+	left:175px;
+    	top:50px;
+	width:39px;
+	height:22px;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/btn1_out.png');
+	color: #eeeeee;
+	font-size:10px;
+	line-height:20px;
+	text-align:center;
+    	text-shadow: -1px 0 #236B8E, 0 1px #236B8E, 1px 0 #236B8E, 0 -1px #236B8E;
+	cursor:pointer;
+}
+#edit-button:hover {
+	background-image: url('http://dev.angrybirds.com/ab2/img2/btn1_over.png');
+}
+.edit-button-down { 
+   background-image: url('http://dev.angrybirds.com/ab2/img2/btn1_down.png') !important;
+}
+
+#you-your-stuff {
+	position:absolute;
+	left:10px;
+    top:10px;
+	cursor:default;
+}
+
+#log-sign-in {
+			position:absolute;
+			left:202px;
+			top:20px;
+			line-height:22px;
+		}
+		#log-sign-out {
+			position:absolute;
+			left:202px;
+			line-height:32px;
+			display:none;
+		}
+		
+		#your-name-here {
+			position:absolute;
+			left:45px;
+			top:-5px;
+			line-height:22px;
+		}
+
+#your-pic {
+	position:absolute;
+	width:35px;
+	height:33px;
+	font-size:9pt;
+	background-position:-70px -70px;
+}
+
+.your-points-ball {
+	position:absolute;
+	left:42px;
+   	top:14px;
+	width:27px;
+	height:26px;
+	font-size:9pt;
+	color: #eeeeee;
+	font-size:7.5pt;
+	line-height:24px;
+	text-align:center;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/LevelBase.png');
+}
+
+#your-points-bar {
+	position:absolute;
+	left:54px;
+    	top:19px;
+	width:120px;
+	height:14px;
+	font-size:9pt;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/LevelBarEmpty.png');
+}
+
+#your-points-bar-full {
+	position:absolute;
+	left:54px;
+    	top:19px;
+	width:77px;
+	height:14px;
+	font-size:9pt;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/LevelBarFull.png');
+}
+
+
+#make-button {
+	background-image: url('http://dev.angrybirds.com/ab2/img2/PlayBtn_Up.png');
+	background-repeat: no-repeat;
+	width:103px;
+	height:56px;
+	cursor: pointer;
+
+}
+#make-button:hover {
+	background-image: url('http://dev.angrybirds.com/ab2/img2/PlayBtn_Over.png');
+}
+.make-down { 
+   background-image: url('http://dev.angrybirds.com/ab2/img2/PlayBtn_Down.png') !important;
+}
+.make-out { 
+   background-image: url('http://dev.angrybirds.com/ab2/img2/PlayBtn_Down.png') !important;
+}
+</style>
+<div class="money-bar">
+			<div id="log-sign-in"><a href="#" onclick="showLogin();">Log in</a>
+			<br><a href="#" onclick="showRegister(false);">Sign up</a></div> 
+			<div id="log-sign-out"><a href="#" onclick="doLogout();window.location.reload();return false;">Log out</a></div>
+			<div id="coins">190</div>
+			<div id="cash">12</div>
+			<div id="add-cash"></div>
+			<div id="piggy">&nbsp;</div>
+			<div id="get-more">get more</div>
+			<div id="edit-button">edit</div>
+			<div id="you-your-stuff">
+				<div id="your-name-here">Guest</div>
+				<div id="your-pic"><img width="35" height="33" src="http://dev.angrybirds.com/ab2/img2/GuestProfilePicture.png" id="your-pic-img" alt="" /></div>
+				<div id="your-points-bar"></div>
+				<div id="your-points-bar-full"></div>
+				<div id="your-points-ball" class="your-points-ball">99</div>
+			</div>
+</div>

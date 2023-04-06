@@ -1,0 +1,129 @@
+<style>
+.highlighted-bar-container {
+	position:absolute;
+	left:709px;
+	top:114px;
+	width:250px;
+	height:440px;
+}
+.highlighted-bar-tabs {
+	position:absolute;
+	left:-1px;
+	top:0px;
+	width:250px;
+	height:300px;
+	font-family:Arial;
+	text-align: center;
+}
+.highlighted-tab-news-active {
+	padding:0px;
+	margin:0px;
+	width:75px;
+	height:22px;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/SmallTab-Active.png');
+	cursor:pointer;
+	color:gray;
+	font-size:8pt;
+	line-height:22px;
+	float:left;
+}
+.highlighted-tab-news-active:hover {
+}
+.highlighted-tab-news-inactive {
+	padding:0px;
+	margin:0px;
+	width:75px;
+	height:22px;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/SmallTab-Inactive.png');
+	cursor:pointer;
+	color:#003F87;
+	font-size:8pt;
+	line-height:22px;
+	float:left;
+}
+.highlighted-tab-news-inactive:hover {
+	background-image: url('http://dev.angrybirds.com/ab2/img2/SmallTab-Over.png');
+}
+
+.highlighted-bar {
+	position:absolute;
+	left:1px;
+	top:20px;
+	width:250px;
+	height:440px;
+	background-color: #ffffff;
+	font-family:Arial;
+	font-size:14px;
+	color: #236B8E;
+	text-align:left;
+	padding:12px 12px 0px 14px;
+	-moz-border-radius: 0px 12px 12px 12px;
+	border-radius: 0px 12px 12px 12px;
+}
+.highlighted-bar p  {padding:0px;margin:0px;}
+.highlighted-bar p.news-text-topic  {font-size:11pt;margin:1px 0px 5px 0px;font-weight:bold;color:#4f4f4f;}
+
+
+.highlighted-news-item-pic {
+	width:40px;
+	height:40px;
+	font-size:9pt;
+	float:left;
+}
+
+.highlighted-news-item-text {
+	width:184px;
+	height:50px;
+	left:60px;
+	background-color: #ffffff;
+	font-family:Arial;
+	font-size:8pt;
+	line-height:12px;
+	color: #666666;
+	text-align:left;
+	float:left;
+	padding:0px 0px 5px 5px;
+	border:0px solid #000000;
+}
+
+.highlighted-news-item-close {
+	width:13px;
+	height:13px;
+	float:left;
+	padding:0px 0px 0px 5px;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/xIcon_Out.png');
+	background-repeat: no-repeat;
+}
+.highlighted-news-item-close:hover {
+	background-image: url('http://dev.angrybirds.com/ab2/img2/xIcon_Over.png');
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+</style>
+	<div>
+		<div class="highlighted-bar-container">
+		<div class="highlighted-bar-tabs">
+			<div class="highlighted-tab-news-active">
+			News</div>
+			<div class="highlighted-tab-news-inactive">
+			Quests</div>
+			<div class="highlighted-tab-news-inactive">
+			Inbox</div>
+		<div class="highlighted-bar">
+			<div id="highlighted-news-1">
+				<!-- News 1 -->
+				<div id="news-1">
+				<div class="highlighted-news-item-pic" style="background-image: url('http://dev.angrybirds.com/ab2/img2/FbMiniIcon.png');"></div>
+				<div class="highlighted-news-item-text"><p class="news-text-topic">Rivalry!</p><p>Player1 beat your score in LevelName1</p></div>
+				<div class="highlighted-news-item-close" onclick="$('#news-1').hide('500');"></div>
+				</div>
+				<!-- News 2 -->
+				<div id="news-2">
+				<div class="highlighted-news-item-pic" style="background-image: url('http://dev.angrybirds.com/ab2/img2/FbMiniIcon.png');"></div>
+				<div class="highlighted-news-item-text"><p class="news-text-topic">Tester</p><p>Player2 beat your score in LevelName</p></div>
+				<div class="highlighted-news-item-close" onclick="$('#news-2').hide('500');"></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>

@@ -1,0 +1,53 @@
+{
+"faqEN": 
+	[
+		{
+			"title": "What are the minimum system requirements?", 
+			"content": "The game requires Flash 11 to run.<br />Flash 11 has its own requirements.<br /><span class='faqTabSpan'>Windows:</span><br />2.33GHz or faster x86-compatible processor, or Intel® Atom™ 1.6GHz or faster processor for netbooks <br />Microsoft® Windows® XP (32-bit), Windows Server® 2003 (32-bit), Windows Server 2008 (32-bit), Windows Vista® (32-bit), Windows 7 (32-bit and 64-bit)<br />Internet Explorer 7.0 and above, Mozilla Firefox 4.0 and above, Google Chrome, Safari 5.0 and above, Opera 11<br />1GB of RAM; 128MB of graphics memory<br /><span class='faqTabSpan'>Mac OS:</span><br />Intel Core™ Duo 1.33GHz or faster processor<br />Mac OS X v10.6 or v10.7<br />Safari 5.0 and above, Mozilla Firefox 4.0 and above, Google Chrome, Opera 11<br />1GB of RAM; 128MB of graphics memory<br /><span class='faqTabSpan'>Linux:</span><br />2.33GHz or faster x86-compatible processor, or Intel Atom 1.6GHz or faster processor for netbooks<br />Red Hat® Enterprise Linux (RHEL) 5.6 or later (32-bit and 64-bit), openSUSE® 11.3 or later (32-bit and 64-bit), Ubuntu 10.04 or later (32-bit and 64-bit)<br />Mozilla Firefox 4.0 or Google Chrome<br />1GB of RAM; 128MB of graphics memory<br />"
+		},
+		{
+			"title": "Why do I have problems with the game on Internet Explorer 8 or earlier?", 
+			"content": "Please note that the game has known issues on Internet Explorer 8 and earlier browsers on certain systems. If you experience problems running the game and have Internet Explorer 8 or earlier, please consider using another browser for now."
+		},
+		{
+			"title": "Why do I need to register for the game?", 
+			"content": "The game requires registration in order to save the player’s progress and organize the weekly competitions. The player's email is used for contacting the winners and, if the player has given their approval, for marketing purposes by Rovio Entertainment Ltd. and PepsiCo."
+		}, 
+		{
+			"title": "What is the Tazos Power?", 
+			"content": "The Tazos Power is a unique power-up for the Angry Birds Tazos game. It is activated by clicking the Tazos Power button. You can use the Tazos Power only once per level. You will receive three free Tazos Powers when logging in for the first time, and can get more by submitting codes. Every code is worth five extra Tazos Powers."
+		}, 
+		{
+			"title": "Where can I get the codes to use the Tazos Power?", 
+			"content": "You can get codes from Sabritas, Gamesa and Sonrics products. For more information see <a href='http://www.tazos.com/' target='_blank'>www.tazos.com</a>."
+		}, 
+		{
+			"title": "How long does each competition last?", 
+			"content": "There is a weekly competition for the three episodes from Monday to Sunday. The leaderboards will reset at midnight on Sunday. The remaining time of the active competition is shown at the top of the sidebar."
+		}, 
+		{
+			"title": "Who wins once the competition is over?", 
+			"content": "Each of the players in the episode leaderboards will win prizes. There are 50 winners for each episode, and the list will reset every Sunday at midnight to start a new competition. Only the 50 players with the highest overall scores of each episode will be in the leaderboards."
+		}, 
+		{
+			"title": "What is the leaderboard?", 
+			"content": "In the sidebar of the game there are three episode-based leaderboards that combine the scores from all three levels of each episode. There are also level-based leaderboards for each of the nine levels. In the sidebar you can navigate through leaderboards using the left and right arrows. Clicking on the Episodes and Levels buttons switches between individual level leaderboards and overall episode leaderboards."
+		}, 
+		{
+			"title": "What are the requirements to participate?", 
+			"content": "The promotion is valid throughout Mexico. Anyone who is playing the game and is 13 years or older can participate in the weekly competition."
+		}, 
+		{
+			"title": "How many times can I try to achieve a winning score?", 
+			"content": "You can try as many times as you want during the weekly competition. Every Sunday at midnight the competition closes and a new weekly competition starts. With the Tazos Power you can increase the chances of getting onto the leaderboards."
+		}, 
+		{
+			"title": "When will I receive my prize?", 
+			"content": "The weekly winners will be contacted via email to provide an address for delivery of the prize. It is important to make sure that the email you provide during registration is valid, otherwise it will be impossible to contact you."
+		}, 
+		{
+			"title": "For how long can I play the game?", 
+			"content": "First competition will start on 7th of January 2013. The last competition will end 17th of February 2013. After the last competition the game will be available for a limited time."
+		}
+	]
+}

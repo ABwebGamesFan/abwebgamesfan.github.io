@@ -1,0 +1,105 @@
+<style>
+.comments-container {
+	position:absolute;
+	left:0px;
+	top:545px;
+	width:680px;
+	background-color:white;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	padding:10px;
+	font-family:Arial;
+}
+.comment-bar {
+	position:relative;
+	width:660px;
+	background-color:white;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	padding:4px 0 8px 0;
+	font: normal 9pt Helvetica Neue,Helvetica,sans-serif;
+	color: #777777;
+}
+.text-box-title {
+	font: bold 10pt Helvetica Neue,Helvetica,sans-serif;
+	text-shadow: 0 1px 0 #ccc;
+	margin: 0 0 5px 0;
+	color: #7F7F7F;
+}
+.text-box {
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 8px;
+	-webkit-box-shadow: 0 1px white;
+	-moz-box-shadow: 0 1px white;
+	box-shadow: 0 1px white;
+	width: 660px;
+	height: 56px;
+	color: #222;
+	font: 14px/18px "Helvetica Neue",Arial,sans-serif;
+	outline: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+.text-box-submit {
+	
+}
+.span-user-name {
+	font: bold 9pt Helvetica Neue,Helvetica,sans-serif;
+	margin: 0 0 5px 0;
+	color: #4383A8;
+}
+.span-when-posted {
+	font: normal 9pt Helvetica Neue,Helvetica,sans-serif;
+	margin: 0 0 5px 0;
+	color: #888888;
+}
+.comment-submit {
+	padding:0px;
+	margin:0px;
+	float:left;
+	width:93px;
+	height:32px;
+	background-image: url('http://dev.angrybirds.com/ab2/img2/SubmitButtonOut.png');
+	cursor:pointer;
+	font-size:11pt;
+	line-height:32px;
+	color:#333;
+	text-align:center;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.comment-div-submit {
+	font-size:11pt;line-height:32px;font-weight:bold;color:#555;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.comment-submit:hover {
+	background-image: url('http://dev.angrybirds.com/ab2/img2/SubmitButtonOver.png');
+}
+.all-the-comments {
+	clear:left;
+}
+</style>
+<div>		
+	<div>
+		<div class="comments-container">
+		<h2 class="text-box-title">Would you like to comment this level?</h2>
+		<textarea id="text-box" class="text-box"></textarea>
+		<div id="all-the-comments" class="all-the-comments">
+			
+		</div>
+		
+		</div>
+	</div>
+</div>

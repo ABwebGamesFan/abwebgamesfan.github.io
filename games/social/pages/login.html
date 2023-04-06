@@ -1,0 +1,78 @@
+<style>
+	#login-pop-up {
+		margin:100px;
+	}
+	.login-pop-up-content {
+		padding:0px;
+		background-image: url('http://dev.angrybirds.com/ab2/img/RegistrationBg.png');
+		background-repeat: no-repeat;
+		width:542px;
+		height:346px;
+		position:relative;
+		text-align:center;
+	}
+	.login-pop-up-email {
+	position: absolute;
+	top:143px;
+	left:146px;
+	width:192px;
+	z-index:20;
+	border:0px;
+	}
+	.login-pop-up-password {
+	position: absolute;
+	top:182px;
+	left:146px;	
+	width:192px;
+	z-index:21;
+	border:0px;
+	}
+	.login-pop-up-FBC {
+	position:absolute;
+	top:360px;
+	left:318px;
+	z-index:22;
+	}
+	.fb_logout_image {
+	cursor:hand;
+	cursor:pointer;
+	}
+
+	.fb_login_image {
+	cursor:hand;
+	cursor:pointer;
+	}
+</style>			
+			
+			<div class="login-pop-up" id="login-pop-up" style="position:relative;"> 
+			<div class="login-pop-up-content"> 
+				<form name="login-form"> 
+					<img src="http://dev.angrybirds.com/ab2/img/RedBanner.png" style="position:absolute;left: -25px;top: 18px;z-index: 1;" /> 
+					<img src="http://dev.angrybirds.com/ab2/img/loginTitle.png" style="position:absolute;left:175px;top:35px;z-index:2;" /> 
+					<img src="http://dev.angrybirds.com/ab2/img/BannerBirdies.png" style="position:absolute;left:355px;top:-40px;z-index:1;" /> 
+					<img src="http://dev.angrybirds.com/ab2/img/BannerPiggies.png" style="position:absolute;left:10px;top:-55px;z-index:1;" /> 
+					<img onClick="setPopUp(false);" src="http://dev.angrybirds.com/ab2/img/RegistrationClose.png" style="position:absolute;left:510px;top:8px;z-index:2;cursor:pointer;" />
+					<div id="login-credentials" style="position:absolute;left:50px;">
+					<input class="login-pop-up-email" type="text" name="email" id="login-pop-up-email" /> 
+					<input class="login-pop-up-password" type="password" name="password" id="login-pop-up-password" onkeydown="if(event.keyCode==13) {doLogin();}" />  
+ 
+					<img src="http://dev.angrybirds.com/ab2/img/TextField.png" style="position:absolute;left:135px;top:135px;z-index:2;" /> 
+					<img src="http://dev.angrybirds.com/ab2/img/TextField.png" style="position:absolute;left:135px;top:175px;z-index:2;" /> 
+					
+					<div style="font-family:Arial;font-size:10pt;position:absolute;top:143px;left:60px;">Email</div> 
+					<div style="font-family:Arial;font-size:10pt;position:absolute;top:183px;left:60px;">Password</div> 
+					</div>
+					<img id="login-button" onmouseover="this.src='http://dev.angrybirds.com/ab2/img/LogInButtonHover.png';" 
+						onmouseout="this.src='http://dev.angrybirds.com/ab2/img/LogInButton.png';" 
+						onclick="doLogin();return false;" 
+						src="http://dev.angrybirds.com/ab2/img/LogInButton.png" 
+						style="position:absolute;left:184px;top:250px;z-index:2;cursor:pointer;" /> 
+					<img src="http://dev.angrybirds.com/ab2/img/RegistrationPaper.png" style="position:absolute;left:-4px;top:335px;z-index:1;"/> 
+					<img src="http://dev.angrybirds.com/ab2/img/AngryBirdsLogoSmall.png" style="position:absolute;left:60px;top:360px;z-index:2;"/> 
+					<div style="font-family:Arial;font-size:8pt;position:absolute;top:296px;left:368px;"><a href="#" onclick="showRegister(true);return false;" style="color:#377C00;">Create account?</a></div> 
+				</form> 
+				<div class="login-pop-up-FBC"> 
+				<img onclick="doFacebookLogin(); return false;" border="0" class="fb_login_image" src="http://static.ak.fbcdn.net/images/fbconnect/login-buttons/connect_light_large_short.gif" alt="Connect"/> 
+				</div> 
+			</div> 
+			</div>

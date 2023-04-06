@@ -1,0 +1,49 @@
+{
+	"episodes" : [
+	  {
+	  	"name" : "Sakura Ninja",
+	  	"levelsPerPage" : [12],
+		"rowsPerPage" : [3],
+		"pageIndexes" : ["cherryFuji"],
+		"pageBackgroundImages" : ["images/Menu/chapter_selection/LevelSelection_sakuraninja.png"],
+		"pageBackgroundMirrored" : [false],
+		"pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}],
+		"leftCorner" : "",
+		"rightCorner" : "",
+		"menuImage" : "EPISODE_CHERRYBLOSSOM",
+		"featherBoxImage": "POPUP_ME_EP1",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_0"
+		],
+		"levelRequirements" : [
+			["cherryFuji-1","none",""]
+		]
+	  },
+	  {
+	  	"name" : "1",
+		"levelsPerPage" : [21, 21, 21],
+		"rowsPerPage" : [3, 3, 3],
+		"pageIndexes" : ["1", "2", "3"],
+		"pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}, {"r" : 14, "g" : 104, "b" : 79}, {"r" : 161, "g" : 98, "b" : 60}],
+		"menuImage" : "EPISODE_POACHEDEGGS",
+		"featherBoxImage": "POPUP_ME_EP1",
+		"leftCorner" : "LEVESELECTION_LEFT_CORNER_1", 
+		"rightCorner" : "LEVESELECTION_RIGHT_CORNER_1",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_0",
+			"LEVESELECTION_LEVEL_BG_1",
+			"LEVESELECTION_LEVEL_BG_2"
+		],
+		"cutscenes" : {
+			"INTRO_1-1": "CUTSCENE_EP1_INTRO",
+			"1-21": "CUTSCENE_EP1_BOSS1",
+			"2-21": "CUTSCENE_EP1_BOSS2",
+			"3-21": "CUTSCENE_EP1_END"
+		},
+		"levelRequirements" : [
+			["1-1","none",""]
+		],
+		"classicEpisode": true
+	  }
+  	]
+}

@@ -1,0 +1,392 @@
+{
+  "Level1-1": {
+    "scoreEagle": 17000,
+    "scoreGold": 32000,
+    "scoreSilver": 30000
+  },
+  "Level1-10": {
+    "scoreEagle": 45000,
+    "scoreGold": 55000,
+    "scoreSilver": 40000
+  },
+  "Level1-11": {
+    "scoreEagle": 58000,
+    "scoreGold": 54000,
+    "scoreSilver": 43000
+  },
+  "Level1-12": {
+    "scoreEagle": 41000,
+    "scoreGold": 45000,
+    "scoreSilver": 35000
+  },
+  "Level1-13": {
+    "scoreEagle": 49000,
+    "scoreGold": 47000,
+    "scoreSilver": 38000
+  },
+  "Level1-14": {
+    "scoreEagle": 64000,
+    "scoreGold": 70000,
+    "scoreSilver": 62000
+  },
+  "Level1-15": {
+    "scoreEagle": 50000,
+    "scoreGold": 41000,
+    "scoreSilver": 32000
+  },
+  "Level1-16": {
+    "scoreEagle": 47000,
+    "scoreGold": 64000,
+    "scoreSilver": 55000
+  },
+  "Level1-17": {
+    "scoreEagle": 65000,
+    "scoreGold": 53000,
+    "scoreSilver": 40000
+  },
+  "Level1-18": {
+    "scoreEagle": 45000,
+    "scoreGold": 48000,
+    "scoreSilver": 39000
+  },
+  "Level1-19": {
+    "scoreEagle": 39000,
+    "scoreGold": 35000,
+    "scoreSilver": 25000
+  },
+  "Level1-2": {
+    "scoreEagle": 29000,
+    "scoreGold": 60000,
+    "scoreSilver": 47000
+  },
+  "Level1-20": {
+    "scoreEagle": 48000,
+    "scoreGold": 50000,
+    "scoreSilver": 37000
+  },
+  "Level1-21": {
+    "scoreEagle": 76000,
+    "scoreGold": 75000,
+    "scoreSilver": 55000
+  },
+  "Level1-3": {
+    "scoreEagle": 19400,
+    "scoreGold": 41000,
+    "scoreSilver": 31000
+  },
+  "Level1-4": {
+    "scoreEagle": 19000,
+    "scoreGold": 28000,
+    "scoreSilver": 20000
+  },
+  "Level1-5": {
+    "scoreEagle": 65900,
+    "scoreGold": 64000,
+    "scoreSilver": 51000
+  },
+  "Level1-6": {
+    "scoreEagle": 28000,
+    "scoreGold": 35000,
+    "scoreSilver": 27000
+  },
+  "Level1-7": {
+    "scoreEagle": 42000,
+    "scoreGold": 45000,
+    "scoreSilver": 35000
+  },
+  "Level1-8": {
+    "scoreEagle": 39000,
+    "scoreGold": 50000,
+    "scoreSilver": 40000
+  },
+  "Level1-9": {
+    "scoreEagle": 50000,
+    "scoreGold": 50000,
+    "scoreSilver": 38000
+  },
+  "Level2-1": {
+    "scoreEagle": 66000,
+    "scoreGold": 60000,
+    "scoreSilver": 52000
+  },
+  "Level2-10": {
+    "scoreEagle": 49000,
+    "scoreGold": 40000,
+    "scoreSilver": 32000
+  },
+  "Level2-11": {
+    "scoreEagle": 91000,
+    "scoreGold": 69000,
+    "scoreSilver": 51000
+  },
+  "Level2-12": {
+    "scoreEagle": 63000,
+    "scoreGold": 60000,
+    "scoreSilver": 43000
+  },
+  "Level2-13": {
+    "scoreEagle": 75000,
+    "scoreGold": 70000,
+    "scoreSilver": 53000
+  },
+  "Level2-14": {
+    "scoreEagle": 65000,
+    "scoreGold": 50000,
+    "scoreSilver": 40000
+  },
+  "Level2-15": {
+    "scoreEagle": 71000,
+    "scoreGold": 50000,
+    "scoreSilver": 42000
+  },
+  "Level2-16": {
+    "scoreEagle": 75000,
+    "scoreGold": 62000,
+    "scoreSilver": 55000
+  },
+  "Level2-17": {
+    "scoreEagle": 61000,
+    "scoreGold": 36000,
+    "scoreSilver": 30000
+  },
+  "Level2-18": {
+    "scoreEagle": 59000,
+    "scoreGold": 60000,
+    "scoreSilver": 50000
+  },
+  "Level2-19": {
+    "scoreEagle": 52000,
+    "scoreGold": 47000,
+    "scoreSilver": 35000
+  },
+  "Level2-2": {
+    "scoreEagle": 58000,
+    "scoreGold": 60000,
+    "scoreSilver": 48000
+  },
+  "Level2-20": {
+    "scoreEagle": 80000,
+    "scoreGold": 52000,
+    "scoreSilver": 40000
+  },
+  "Level2-21": {
+    "scoreEagle": 84000,
+    "scoreGold": 75000,
+    "scoreSilver": 58000
+  },
+  "Level2-3": {
+    "scoreEagle": 96000,
+    "scoreGold": 102000,
+    "scoreSilver": 90000
+  },
+  "Level2-4": {
+    "scoreEagle": 52000,
+    "scoreGold": 50000,
+    "scoreSilver": 40000
+  },
+  "Level2-5": {
+    "scoreEagle": 100000,
+    "scoreGold": 80000,
+    "scoreSilver": 70000
+  },
+  "Level2-6": {
+    "scoreEagle": 68000,
+    "scoreGold": 62000,
+    "scoreSilver": 54000
+  },
+  "Level2-7": {
+    "scoreEagle": 37000,
+    "scoreGold": 50000,
+    "scoreSilver": 43000
+  },
+  "Level2-8": {
+    "scoreEagle": 85000,
+    "scoreGold": 53000,
+    "scoreSilver": 45000
+  },
+  "Level2-9": {
+    "scoreEagle": 28000,
+    "scoreGold": 28000,
+    "scoreSilver": 20000
+  },
+  "Level3-1": {
+    "scoreEagle": 60000,
+    "scoreGold": 63000,
+    "scoreSilver": 55000
+  },
+  "Level3-10": {
+    "scoreEagle": 59000,
+    "scoreGold": 50000,
+    "scoreSilver": 42000
+  },
+  "Level3-11": {
+    "scoreEagle": 53000,
+    "scoreGold": 50000,
+    "scoreSilver": 45000
+  },
+  "Level3-12": {
+    "scoreEagle": 67000,
+    "scoreGold": 50000,
+    "scoreSilver": 40000
+  },
+  "Level3-13": {
+    "scoreEagle": 40000,
+    "scoreGold": 40000,
+    "scoreSilver": 33000
+  },
+  "Level3-14": {
+    "scoreEagle": 63000,
+    "scoreGold": 50000,
+    "scoreSilver": 44000
+  },
+  "Level3-15": {
+    "scoreEagle": 71000,
+    "scoreGold": 55000,
+    "scoreSilver": 50000
+  },
+  "Level3-16": {
+    "scoreEagle": 86000,
+    "scoreGold": 70000,
+    "scoreSilver": 55000
+  },
+  "Level3-17": {
+    "scoreEagle": 86000,
+    "scoreGold": 68000,
+    "scoreSilver": 59000
+  },
+  "Level3-18": {
+    "scoreEagle": 102000,
+    "scoreGold": 85000,
+    "scoreSilver": 75000
+  },
+  "Level3-19": {
+    "scoreEagle": 89000,
+    "scoreGold": 63000,
+    "scoreSilver": 50000
+  },
+  "Level3-2": {
+    "scoreEagle": 35000,
+    "scoreGold": 50000,
+    "scoreSilver": 40000
+  },
+  "Level3-20": {
+    "scoreEagle": 116000,
+    "scoreGold": 110000,
+    "scoreSilver": 100000
+  },
+  "Level3-21": {
+    "scoreEagle": 135000,
+    "scoreGold": 107000,
+    "scoreSilver": 90000
+  },
+  "Level3-3": {
+    "scoreEagle": 65000,
+    "scoreGold": 57000,
+    "scoreSilver": 47000
+  },
+  "Level3-4": {
+    "scoreEagle": 55000,
+    "scoreGold": 39000,
+    "scoreSilver": 33000
+  },
+  "Level3-5": {
+    "scoreEagle": 108000,
+    "scoreGold": 108000,
+    "scoreSilver": 98000
+  },
+  "Level3-6": {
+    "scoreEagle": 87000,
+    "scoreGold": 60000,
+    "scoreSilver": 53000
+  },
+  "Level3-7": {
+    "scoreEagle": 45000,
+    "scoreGold": 55000,
+    "scoreSilver": 46000
+  },
+  "Level3-8": {
+    "scoreEagle": 86000,
+    "scoreGold": 75000,
+    "scoreSilver": 65000
+  },
+  "Level3-9": {
+    "scoreEagle": 68000,
+    "scoreGold": 65000,
+    "scoreSilver": 55000
+  },
+    "LevelcherryFuji-1": {
+    "scoreEagle": 112000,
+    "scoreGold": 102000,
+    "scoreSilver": 95000
+  },
+  "LevelcherryFuji-10": {
+    "scoreEagle": 112000,
+    "scoreGold": 78000,
+    "scoreSilver": 71000
+  },
+  "LevelcherryFuji-11": {
+    "scoreEagle": 111000,
+    "scoreGold": 73000,
+    "scoreSilver": 69000
+  },
+  "LevelcherryFuji-12": {
+    "scoreEagle": 101000,
+    "scoreGold": 87000,
+    "scoreSilver": 80000
+  },
+  "LevelcherryFuji-13": {
+    "scoreEagle": 111000,
+    "scoreGold": 105000,
+    "scoreSilver": 100000
+  },
+  "LevelcherryFuji-14": {
+    "scoreEagle": 133000,
+    "scoreGold": 88000,
+    "scoreSilver": 73000
+  },
+  "LevelcherryFuji-15": {
+    "scoreEagle": 106000,
+    "scoreGold": 95000,
+    "scoreSilver": 83000
+  },
+  "LevelcherryFuji-2": {
+    "scoreEagle": 141000,
+    "scoreGold": 132000,
+    "scoreSilver": 125000
+  },
+  "LevelcherryFuji-3": {
+    "scoreEagle": 130000,
+    "scoreGold": 92000,
+    "scoreSilver": 85000
+  },
+  "LevelcherryFuji-4": {
+    "scoreEagle": 128000,
+    "scoreGold": 121000,
+    "scoreSilver": 115000
+  },
+  "LevelcherryFuji-5": {
+    "scoreEagle": 153000,
+    "scoreGold": 104000,
+    "scoreSilver": 97000
+  },
+  "LevelcherryFuji-6": {
+    "scoreEagle": 110000,
+    "scoreGold": 93000,
+    "scoreSilver": 86000
+  },
+  "LevelcherryFuji-7": {
+    "scoreEagle": 110000,
+    "scoreGold": 95000,
+    "scoreSilver": 87000
+  },
+  "LevelcherryFuji-8": {
+    "scoreEagle": 147000,
+    "scoreGold": 114000,
+    "scoreSilver": 107000
+  },
+  "LevelcherryFuji-9": {
+    "scoreEagle": 134000,
+    "scoreGold": 101000,
+    "scoreSilver": 94000
+  }
+}

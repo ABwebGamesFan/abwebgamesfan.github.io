@@ -1,0 +1,24 @@
+<quests>
+	<quest id="0" name="So It Pegins">quest_tutorial_01_05.xml</quest>
+	<quest id="1" name="Home Swine Home">quest_tutorial_02_15.xml</quest>
+	<quest id="2" name="Everybody Loves Donuts">quest_tutorial_11_07.xml</quest>
+	<quest id="3" name="Everybody Loves Donuts">quest_tutorial_03_07.xml</quest>
+	<quest id="4" name="Kick Some Ice">quest_tutorial_04_08.xml</quest>
+	<quest id="5" name="Castle of Boom">quest_tutorial_05_06.xml</quest>
+	<quest id="6" name="With Friends Like These">quest_tutorial_06_03.xml</quest>
+	<quest id="7" name="A King's Field">quest_tutorial_10_05.xml</quest>
+	<quest id="8" name="Wobbling Tower">quest_tutorial_09_08.xml</quest>
+	<quest id="9" name="Wobbling Tower">quest_tutorial_08_10.xml</quest>
+	<quest id="10" name="Wobbling Tower">quest_tutorial_07_01.xml</quest>
+	<quest id="11" name="Wobbling Tower">quest_main_bridge01_02.xml</quest>
+	<quest id="12" name="Wobbling Tower">quest_main_pillars03_03.xml</quest>
+	<quest id="13" name="Wobbling Tower">quest_main_fix_01_04.xml</quest>
+	<quest id="14" name="Wobbling Tower">quest_main_cliff03_05.xml</quest>
+	<quest id="15" name="Wobbling Tower">quest_main_incoming01_05.xml</quest>
+	<quest id="16" name="Wobbling Tower">quest_main_fix02_06.xml</quest>
+	<quest id="17" name="Wobbling Tower">quest_main_cliff06_03.xml</quest>
+	<quest id="18" name="Wobbling Tower">quest_main_bridge02_04.xml</quest>
+	<quest id="19" name="Wobbling Tower">quest_main_pigshape03_04.xml</quest>
+	<quest id="20" name="Wobbling Tower">quest_main_pillars02_03.xml</quest>
+	<quest id="21" name="Wobbling Tower">quest_main_boss01_04.xml</quest>
+</quests>

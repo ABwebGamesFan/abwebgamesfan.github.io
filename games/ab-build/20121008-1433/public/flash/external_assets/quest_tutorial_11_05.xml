@@ -1,0 +1,70 @@
+<quest name="Rolling away">
+  <!-- Quest content from editor goes here -->
+  <level>{"counts":{"birds":4,"blocks":37,"joints":0},"slingshotY":-18,"name":null,"camera":[{"left":-15.5,"scale":0.44077134986225897,"id":"SLINGSHOT","y":-15,"right":75.25,"x":29.875,"bottom":10,"top":-40},{"left":59.5,"scale":0.6,"id":"CASTLE","y":-15,"right":91,"x":75.25,"bottom":10,"top":-40}],"slingshotX":0,"scoreEagle":0,"world":{"block_37":{"x":111.73636405840033,"front":false,"id":"TERRAIN_TEXTURED_HILLS_5X2","uniqueID":"","y":-6.515209598303926,"angle":337.49999999999994},"block_8":{"x":73.28500145264852,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-7.597200085652202,"angle":0},"block_5":{"x":76,"front":false,"id":"WOOD_BLOCK_8X1","uniqueID":"","y":-20.5,"angle":270},"block_3":{"x":74,"front":false,"id":"WOOD_BLOCK_8X1","uniqueID":"","y":-25,"angle":0},"block_31":{"x":92.36495720467232,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-3.2401595593182324,"angle":45},"block_13":{"x":56.224301452648525,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-8.773800085652208,"angle":315},"block_6":{"x":76,"front":false,"id":"WOOD_BLOCK_4X1","uniqueID":"","y":-14.5,"angle":270},"block_24":{"x":-16.733171266402568,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-0.19719999999999693,"angle":45},"bird_4":{"x":-11.5,"id":"BIRD_RED","y":-10.5},"block_9":{"x":82.44250145264851,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-7.578700085652201,"angle":0},"bird_2":{"x":-3,"id":"BIRD_YELLOW","y":-10.5},"block_28":{"x":103.57570541504644,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-0.04908516235781813,"angle":0},"block_15":{"x":61.400353083547046,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-2.054599999999999,"angle":337.5},"block_12":{"x":62.527337662636214,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-13.069500085652209,"angle":292.5},"block_34":{"x":83.440212582764,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X2","uniqueID":"","y":-16.834882940520952,"angle":112.5},"block_17":{"x":78.93465308354705,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-1.329400000000004,"angle":337.5},"block_10":{"x":86.9380014526485,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":0.3059999143477974,"angle":0},"block_1":{"x":74,"front":false,"id":"PIG_BASIC_BIG","uniqueID":"","y":-27.5,"angle":0},"block_36":{"x":114.1986241312436,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":0.4827605704689226,"angle":315},"block_25":{"x":-22.882571266402564,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":3.154999999999996,"angle":22.499999999999886},"block_14":{"x":51.913801452648514,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-2.4061000856522075,"angle":337.5},"bird_3":{"x":-7,"id":"BIRD_YELLOW","y":-10.5},"block_19":{"x":4.352543313110519,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-0.4710000000000034,"angle":315},"block_20":{"x":0.8560433131105203,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-3.3089,"angle":292.5},"block_23":{"x":-13.26640998723051,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-3.408800000000009,"angle":67.49999999999994},"block_4":{"x":71.5,"front":false,"id":"WOOD_BLOCK_8X1","uniqueID":"","y":-20.5,"angle":270},"block_21":{"x":-1.3380566868894794,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-4.973900000000005,"angle":270},"bird_1":{"x":0.5,"id":"BIRD_RED","y":-10.5},"block_27":{"x":98.35055435569603,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-0.4503021187007974,"angle":337.49999999999994},"block_22":{"x":-10.994609987230511,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-4.890798954184729,"angle":0},"block_7":{"x":71.5,"front":false,"id":"WOOD_BLOCK_4X1","uniqueID":"","y":-14.5,"angle":247.5},"block_18":{"x":9.277243313110516,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":2.744300000000006,"angle":337.5},"block_2":{"x":79,"front":false,"id":"MISC_FOOD_DONUT","uniqueID":"","y":-26.5,"angle":0},"block_32":{"x":87.0604958167425,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-8.525959693464648,"angle":45},"block_35":{"x":85.9174940225096,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X2","uniqueID":"","y":-15.761860847975775,"angle":135},"block_16":{"x":69.54775308354704,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-1.3035000000000023,"angle":337.5},"block_11":{"x":66.51400145264851,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-9.240000085652207,"angle":315},"block_29":{"x":107.03736799186603,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-1.5139935843542554,"angle":22.499999999999886},"block_26":{"x":89.65907540608015,"front":false,"id":"TERRAIN_TEXTURED_HILLS_32X2","uniqueID":"","y":-13.23326096032585,"angle":315},"block_33":{"x":84.45258560051316,"front":false,"id":"TERRAIN_TEXTURED_HILLS_5X5","uniqueID":"","y":-13.60648603599374,"angle":67.49999999999994},"block_30":{"x":108.6655623844672,"front":false,"id":"TERRAIN_TEXTURED_HILLS_10X10","uniqueID":"","y":-2.7829588416250717,"angle":45}},"scoreSilver":5200,"LevelExtension":0,"scoreGold":5644,"theme":"BACKGROUND_GOLDEN_FIELDS"}</level>
+  <!-- Intro effect applied to the preset structure -->
+  <!-- Available types: Impulse, ... -->
+  <intro>
+    <start>1000</start>
+    <end>4000</end>
+  </intro>
+  <!-- Quest steps, using functions that check object states in the canvas -->
+  <!-- Available types: GhostObject, Connected, ... -->
+  <step type="GhostObject">
+    <description>Put the pig back</description>
+    <object instruction="true">1</object>
+    <object instruction="true">3</object>
+    <object instruction="true">4</object>
+    <object instruction="true">5</object>
+  </step>
+  <step type="Request">
+    <object>1</object>
+    <request amount="1">MISC_FOOD_DONUT</request>
+    <instruction>
+      <object>2</object>
+      <x>74</x>
+      <y>-30</y>
+    </instruction>
+  </step>
+  <step type="Connected">
+    <description>Give the pig his donut back</description>
+    <object>1</object>
+    <object>ground</object>
+  </step>
+  <persistent>
+    <object>2</object>
+  </persistent>
+  <surprise>
+    <x>80.5</x>
+	<y>-18.5</y>
+    <reward>MISC_FOOD_DONUT</reward>
+  </surprise>
+  <surprise>
+    <x>78</x>
+	<y>-18.5</y>
+    <reward>MISC_FOOD_DONUT</reward>
+  </surprise>
+  <!-- Quest-based UI controls, modifying the visibility of UI elements -->
+  <!-- Available states: unknown, hidden, ... -->
+  <inventory>
+    <category state="hidden">Birds</category>
+    <category state="hidden">Pigs</category>
+    <category state="hidden">Rock</category>
+    <category state="hidden">Ice</category>
+    <category state="hidden">Stone</category>
+    <category state="hidden">Static</category>
+    <category state="hidden">Snow</category>
+    <category state="hidden">Fun</category>
+    <category state="hidden">Wear</category>
+    <category state="hidden">Build</category>
+    <category state="hidden">Misc</category>
+  </inventory>
+  <availableItems count="12">
+    <item>WOOD_BLOCK_4X1</item>
+    <item>WOOD_BLOCK_8X1</item>
+    <item>WOOD_BLOCK_2X1</item>
+    <item>WOOD_TRIANGLE_4X4</item>
+    <item>WOOD_BLOCK_2X2</item>
+    <item>WOOD_BLOCK_1X1</item>
+    <item>MISC_FOOD_DONUT</item>
+  </availableItems>
+</quest>

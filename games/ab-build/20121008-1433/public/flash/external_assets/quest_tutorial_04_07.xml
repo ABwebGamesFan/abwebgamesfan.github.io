@@ -1,0 +1,76 @@
+<quest name="Pigs in Glass Houses">
+  <!-- Quest content from editor goes here -->
+  <level>{"world":{"block_32":{"x":67,"angle":0,"id":"STONE_CIRCLE_4X4","y":-21.5,"uniqueID":"","front":false},"block_53":{"x":68,"angle":0,"id":"ICE_BLOCK_8X1","y":-29.5,"uniqueID":"","front":false},"block_11":{"x":52.14111440971281,"angle":337.49999999999994,"id":"TERRAIN_TEXTURED_HILLS_5X2","y":-3.307321197764117,"uniqueID":"","front":false},"block_52":{"x":32.510941370628416,"angle":315,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-2.1747480077441144,"uniqueID":"","front":false},"block_10":{"x":45.34281067381827,"angle":270,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-0.0833014508768674,"uniqueID":"","front":false},"block_31":{"x":68,"angle":0,"id":"STONE_BLOCK_8X1","y":-18.5,"uniqueID":"","front":false},"block_9":{"x":55.44054391487794,"angle":315,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-3.022574042754954,"uniqueID":"","front":false},"block_30":{"x":69,"angle":90,"id":"STONE_TRIANGLE_4X4","y":-21,"uniqueID":"","front":false},"block_8":{"x":60.343810815062014,"angle":180,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-5.017422562389507,"uniqueID":"","front":false},"block_51":{"x":30.22505929185181,"angle":67.49999999999994,"id":"TERRAIN_TEXTURED_HILLS_5X5","y":-8.415725453355696,"uniqueID":"","front":false},"block_7":{"x":64.37445372507086,"angle":270,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-3.05718959705687,"uniqueID":"","front":false},"block_29":{"x":71.5,"angle":270,"id":"ICE_BLOCK_10X1","y":-24,"uniqueID":"","front":false},"block_6":{"x":39.2910273052026,"angle":337.49999999999994,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-0.48380671644381223,"uniqueID":"","front":false},"block_50":{"x":32.297610870887624,"angle":45,"id":"TERRAIN_TEXTURED_HILLS_5X5","y":-11.469181997160836,"uniqueID":"","front":false},"block_5":{"x":36.10793208631837,"angle":22.499999999999886,"id":"TERRAIN_TEXTURED_HILLS_5X5","y":-6.586746102662635,"uniqueID":"","front":false},"block_28":{"x":68,"angle":0,"id":"PIG_BASIC_SMALL","y":-36,"uniqueID":"","front":false},"block_4":{"x":28.43659113969314,"angle":337.49999999999994,"id":"TERRAIN_TEXTURED_HILLS_5X5","y":-4.0724890728032825,"uniqueID":"","front":false},"block_49":{"x":33.99563311672365,"angle":45,"id":"TERRAIN_TEXTURED_HILLS_5X5","y":-9.751820593872472,"uniqueID":"","front":false},"block_3":{"x":45.5,"angle":0,"id":"ICE_BLOCK_10X1","y":-14.5,"uniqueID":"","front":false},"block_27":{"x":35,"angle":0,"id":"PIG_BASIC_SMALL","y":-21,"uniqueID":"","front":false},"block_2":{"x":58.5,"angle":0,"id":"PIG_BASIC_MEDIUM","y":-12.5,"uniqueID":"","front":false},"block_48":{"x":42,"angle":247.5,"id":"ICE_BLOCK_4X1","y":-7,"uniqueID":"","front":false},"block_25":{"x":-14.028101728155884,"angle":202.5,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-2.0746628115902084,"uniqueID":"","front":false},"block_46":{"x":70,"angle":270,"id":"WOOD_TRIANGLE_4X4","y":-16,"uniqueID":"","front":false},"bird_5":{"x":-16.5,"id":"BIRD_BLUE","y":-16},"block_47":{"x":42,"angle":270,"id":"ICE_BLOCK_4X1","y":-12,"uniqueID":"","front":false},"block_24":{"x":-21.80975466935819,"angle":225,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-0.6947424915382108,"uniqueID":"","front":false},"block_45":{"x":56,"angle":0,"id":"ICE_BLOCK_2X2","y":-17,"uniqueID":"","front":false},"bird_3":{"x":-10,"id":"BIRD_BLUE","y":-16},"block_26":{"x":-7.975269415200533,"angle":180,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-1.5179904097510544,"uniqueID":"","front":false},"block_23":{"x":-16.372398180971487,"angle":247.5,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-9.052668975489508,"uniqueID":"","front":false},"block_44":{"x":61,"angle":270,"id":"ICE_BLOCK_4X1","y":-13,"uniqueID":"","front":false},"bird_1":{"x":-0.5,"id":"BIRD_BLUE","y":-12.5},"block_1":{"x":45.5,"angle":0,"id":"PIG_BASIC_MEDIUM","y":-11.5,"uniqueID":"","front":false},"block_22":{"x":-14.231953664594098,"angle":180,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-10.522754537902058,"uniqueID":"","front":false},"block_43":{"x":56,"angle":270,"id":"ICE_BLOCK_4X1","y":-13,"uniqueID":"","front":false},"bird_4":{"x":-13,"id":"BIRD_BLUE","y":-16},"block_21":{"x":-9.406152760528162,"angle":225,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-8.488156112451954,"uniqueID":"","front":false},"block_42":{"x":58.5,"angle":0,"id":"ICE_BLOCK_8X1","y":-15.5,"uniqueID":"","front":false},"bird_2":{"x":-4,"id":"BIRD_BLUE","y":-12.5},"block_20":{"x":-3.266787306213194,"angle":270,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-6.943168070651035,"uniqueID":"","front":false},"block_41":{"x":58.5,"angle":0,"id":"ICE_BLOCK_8X1","y":-10.5,"uniqueID":"","front":false},"block_19":{"x":-0.9883036077888756,"angle":292.5,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-5.249362248908227,"uniqueID":"","front":false},"block_40":{"x":64.5,"angle":270,"id":"ICE_BLOCK_10X1","y":-24,"uniqueID":"","front":false},"block_18":{"x":3.0136299699455513,"angle":315,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":0.2423952459596086,"uniqueID":"","front":false},"block_39":{"x":43.5,"angle":90,"id":"ICE_TRIANGLE_4X4","y":-17,"uniqueID":"","front":false},"block_17":{"x":79.83008417027938,"angle":135,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":0.23442444581774513,"uniqueID":"","front":false},"block_38":{"x":47.5,"angle":0,"id":"ICE_TRIANGLE_4X4","y":-17,"uniqueID":"","front":false},"block_16":{"x":72.65836466731781,"angle":180,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-3.587538108814222,"uniqueID":"","front":false},"block_37":{"x":49,"angle":270,"id":"ICE_BLOCK_4X1","y":-12,"uniqueID":"","front":false},"block_15":{"x":77.19108712737119,"angle":202.5,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-5.685188163892744,"uniqueID":"","front":false},"block_36":{"x":49,"angle":270,"id":"ICE_BLOCK_4X1","y":-7,"uniqueID":"","front":false},"block_14":{"x":73.00081857056308,"angle":225,"id":"TERRAIN_TEXTURED_HILLS_10X10","y":-12.064423357097562,"uniqueID":"","front":false},"block_35":{"x":45.5,"angle":0,"id":"ICE_BLOCK_8X1","y":-9.5,"uniqueID":"","front":false},"block_13":{"x":67.39539186383963,"angle":337.49999999999994,"id":"TERRAIN_TEXTURED_HILLS_5X5","y":-8.986055107912792,"uniqueID":"","front":false},"block_34":{"x":67.5,"angle":0,"id":"STONE_CIRCLE_4X4","y":-25,"uniqueID":"","front":false},"block_12":{"x":26.41751685254205,"angle":315,"id":"TERRAIN_TEXTURED_HILLS_5X5","y":-0.7048291770061705,"uniqueID":"","front":false},"block_33":{"x":69.5,"angle":0,"id":"STONE_CIRCLE_2X2","y":-23,"uniqueID":"","front":false}},"counts":{"birds":5,"blocks":53,"joints":0},"slingshotY":-20,"name":null,"LevelExtension":0,"scoreGold":96950,"slingshotX":0,"scoreEagle":0,"theme":"BACKGROUND_GOLDEN_FIELDS","scoreSilver":53306,"camera":[{"left":-20.5,"scale":0.5172413793103449,"id":"SLINGSHOT","y":-19,"right":53.25,"x":16.375,"bottom":10,"top":-48},{"left":23,"scale":0.5172413793103449,"id":"CASTLE","y":-19,"right":83.5,"x":53.25,"bottom":10,"top":-48}]}</level>
+  <!-- Intro effect applied to the preset structure -->
+  <!-- Available types: Impulse, ... -->
+  <intro>
+    <start>1000</start>
+    <end>6000</end>
+  </intro>
+  <!-- Quest steps, using functions that check object states in the canvas -->
+  <!-- Available types: GhostObject, Connected, ... -->
+  <step type="GhostObject">
+    <description>Put the pigs and blocks back</description>
+    <object>1</object>
+    <object>2</object>
+    <object>3</object>
+    <object>38</object>
+    <object>39</object>
+    <object>35</object>
+    <object>45</object>
+    <object>42</object>
+    <object>53</object>
+    <object>40</object>
+    <object>29</object>
+    <object>31</object>
+    <object>46</object>
+    <object>30</object>
+    <object>33</object>
+    <object>34</object>
+    <object>32</object>
+  </step>
+  <step type="Connected">
+    <description>Build a new structure</description>
+    <object>1</object>
+    <object>2</object>
+    <object>ground</object>
+  </step>
+  <surprise>
+    <object>27</object>
+    <reward>MISC_FOOD_DONUT</reward>
+  </surprise>
+  <surprise>
+    <object>28</object>
+    <reward>MISC_FOOD_DONUT</reward>
+  </surprise>
+  <step type="Request">
+    <object>2</object>
+    <request amount="1">MISC_FOOD_DONUT</request>
+  </step>
+  <!-- Quest-based UI controls, modifying the visibility of UI elements -->
+  <!-- Available states: unknown, hidden, ... -->
+  <inventory>
+    <category state="hidden">Birds</category>
+    <category state="hidden">Pigs</category>
+    <category state="hidden">Rock</category>
+    <category state="hidden">Static</category>
+    <category state="hidden">Snow</category>
+    <category state="hidden">Fun</category>
+    <category state="hidden">Wear</category>
+    <category state="hidden">Build</category>
+    <category state="hidden">Misc</category>
+  </inventory>
+  <availableItems count="13">
+    <item>WOOD_BLOCK_4X1</item>
+    <item>WOOD_BLOCK_8X1</item>
+    <item>WOOD_BLOCK_2X1</item>
+    <item>WOOD_TRIANGLE_4X4</item>
+    <item>WOOD_BLOCK_2X2</item>
+    <item>WOOD_BLOCK_1X1</item>
+    <item>MISC_FOOD_DONUT</item>
+    <item>ICE_BLOCK_4X1</item>
+    <item>ICE_BLOCK_8X1</item>
+    <item>ICE_BLOCK_2X1</item>
+    <item>PIG_BASIC_SMALL</item>
+  </availableItems>
+</quest>

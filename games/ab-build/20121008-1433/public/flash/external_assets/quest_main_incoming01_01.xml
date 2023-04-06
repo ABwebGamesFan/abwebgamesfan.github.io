@@ -1,0 +1,39 @@
+<quest name="Falling on hard times">
+  <!-- Quest content from editor goes here -->
+  <level>{"scoreSilver":28640,"slingshotX":0,"LevelExtension":0,"slingshotY":-18.5,"counts":{"blocks":30,"birds":3,"joints":0},"name":null,"scoreEagle":0,"world":{"block_17":{"id":"TERRAIN_TEXTURED_HILLS_5X5","front":false,"angle":270,"x":98.0643896245997,"y":-19.099640054634246,"uniqueID":null},"block_23":{"id":"TERRAIN_TEXTURED_HILLS_5X5","front":false,"angle":315,"x":103.19193238830911,"y":-19.461137862829503,"uniqueID":null},"block_16":{"id":"TERRAIN_TEXTURED_HILLS_5X5","front":false,"angle":292.5,"x":94.41022295793302,"y":-18.34130672130091,"uniqueID":null},"block_30":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":45,"x":0.9610565903352102,"y":0.7525842034114447,"uniqueID":null},"block_25":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":315,"x":13.991396735663333,"y":-0.022489417792986112,"uniqueID":null},"block_11":{"id":"MISC_EXPLOSIVE_TNT","front":false,"angle":0,"x":62,"y":-8.5,"uniqueID":""},"bird_1":{"id":"BIRD_RED","x":0.5,"y":-11},"bird_2":{"id":"BIRD_RED","x":-4,"y":-11},"block_29":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":45,"x":-13.203584856812553,"y":0.007854565960881132,"uniqueID":null},"block_9":{"id":"STONE_BLOCK_4X1","front":false,"angle":270,"x":59.5,"y":-2.0589999999999997,"uniqueID":""},"block_15":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":337.49999999999994,"x":93.86855629126637,"y":-13.178806721300909,"uniqueID":null},"block_28":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":22.499999999999943,"x":-6.960467060682732,"y":-4.134993143031779,"uniqueID":null},"block_10":{"id":"PIG_BASIC_SMALL","front":false,"angle":0,"x":59,"y":-26,"uniqueID":""},"block_8":{"id":"STONE_BLOCK_4X1","front":false,"angle":270,"x":64.5,"y":-2.0589999999999997,"uniqueID":""},"block_27":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":0,"x":0.3440746838396116,"y":-5.588119604156586,"uniqueID":null},"block_22":{"id":"TERRAIN_TEXTURED_HILLS_5X5","front":false,"angle":22.499999999999943,"x":101.80826096331536,"y":-19.724098043145055,"uniqueID":null},"block_7":{"id":"WOOD_BLOCK_4X2","front":false,"angle":270,"x":68.5,"y":-2.0589999999999997,"uniqueID":""},"bird_3":{"id":"BIRD_RED","x":4.5,"y":-11},"block_5":{"id":"STONE_CIRCLE_4X4","front":false,"angle":0,"x":62,"y":-22.5,"uniqueID":""},"block_26":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":337.5,"x":7.761761537736053,"y":-4.1546238085083145,"uniqueID":null},"block_4":{"id":"PIG_BASIC_MEDIUM","front":false,"angle":0,"x":68.5,"y":-5.5,"uniqueID":""},"block_6":{"id":"WOOD_BLOCK_4X2","front":false,"angle":270,"x":55,"y":-2.0589999999999997,"uniqueID":""},"block_3":{"id":"PIG_BASIC_MEDIUM","front":false,"angle":0,"x":55,"y":-5.5,"uniqueID":""},"block_14":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":315,"x":91.09662852322549,"y":-8.032020255524241,"uniqueID":null},"block_2":{"id":"MISC_EXPLOSIVE_TNT","front":false,"angle":0,"x":64.5,"y":-5.5,"uniqueID":""},"block_20":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":0,"x":98.43522295793302,"y":-9.049640054634244,"uniqueID":null},"block_19":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":22.499999999999943,"x":100.33938962459969,"y":-1.557973387967576,"uniqueID":null},"block_21":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":337.49999999999994,"x":100.24831433348632,"y":-15.04909542314077,"uniqueID":null},"block_1":{"id":"MISC_EXPLOSIVE_TNT","front":false,"angle":0,"x":59.5,"y":-5.5,"uniqueID":""},"block_18":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":0,"x":94.07688962459969,"y":-1.8246400546342443,"uniqueID":null},"block_13":{"id":"TERRAIN_TEXTURED_HILLS_10X10","front":false,"angle":337.49999999999994,"x":86.93800008226725,"y":-1.8290625976262787,"uniqueID":null},"block_12":{"id":"PIG_BASIC_SMALL","front":false,"angle":0,"x":63.5,"y":-19.5,"uniqueID":""},"block_24":{"id":"TERRAIN_TEXTURED_HILLS_5X5","front":false,"angle":337.5,"x":104.05905983216853,"y":-17.964769213629488,"uniqueID":null}},"camera":[{"left":-8,"top":-40,"id":"SLINGSHOT","right":61.75,"x":26.875,"bottom":10,"y":-15,"scale":0.5734767025089605},{"left":43,"top":-40,"id":"CASTLE","right":80.5,"x":61.75,"bottom":10,"y":-15,"scale":0.6}],"scoreGold":45996,"theme":"BACKGROUND_BLUE_GRASS"}</level>
+  <!-- Intro effect applied to the preset structure -->
+  <!-- Available types: Impulse, ... -->
+  <intro>
+    <start>1000</start>
+    <end>4000</end>
+  </intro>
+  <!-- Quest steps, using functions that check object states in the canvas -->
+  <!-- Available types: GhostObject, Connected, ... -->
+  <step type="GhostObject">
+    <description>Put the pigs and blocks back</description>
+    <object>1</object>
+    <object>2</object>
+    <object>3</object>
+    <object>4</object>
+    <object>5</object>
+  </step>
+  <step type="Connected">
+    <description>Protect the TNT with a structure</description>
+    <object>1</object>
+    <object>2</object>
+    <object>3</object>
+    <object>4</object>
+    <object>5</object>
+    <object>ground</object>
+  </step>
+  <surprise>
+    <object>10</object>
+    <reward>MISC_FOOD_DONUT</reward>
+  </surprise>
+  <surprise>
+    <object>12</object>
+    <reward>MISC_FOOD_DONUT</reward>
+  </surprise>
+  <!-- Quest-based UI controls, modifying the visibility of UI elements -->
+  <!-- Available states: unknown, hidden, ... -->
+</quest>

@@ -1,5 +1,0 @@
-{
-	"HELMET_M": {"bodyType": "DYNAMIC", "defense": 8, "density": 0.1, "friction": 0.3, "restitution": 0.05, "strength": 15, "soundModel": "PIGS_BIG_HELMET", "particleType": "NONE"},
-	"TELEPIZZA_TOMATO": {"bodyType": "DYNAMIC", "defense": 1, "density": 0.75, "friction": 0.7, "restitution": 0.4, "strength": 5, "soundModel": "TELEPIZZA_TOMATO", "particleType": "TELEPIZZA_TOMATO"},
-	"PIZZA_CRUST": {"bodyType": "STATIC", "defense": -1, "density": 0.5, "friction": 0.8, "restitution": 0.0, "strength": 100, "soundModel": "TELEPIZZA_CRUST"}
-}

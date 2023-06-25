@@ -1,6 +1,0 @@
-{
-	"image": "INGAME_THEME_VOLCANO_1.png",
-	"spriteCount": 2,
-	"sprite_0": { "id": "THEME_FAZER_BACKGROUND_4", "x": 0, "y": 0, "width": 1024, "height": 579, "pivotx": 0, "pivoty": 578 },
-	"sprite_1": { "id": "THEME_FAZER_BACKGROUND_2", "x": 0, "y": 581, "width": 1024, "height": 282, "pivotx": 0, "pivoty": 281 }
-}

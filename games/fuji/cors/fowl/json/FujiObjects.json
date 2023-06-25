@@ -1,9 +1,0 @@
-{
-"REDBIRD_J": {"type": "BIRD", "material": "BIRD_RED", "shape": "BIRD_CIRCLE_RED", "score": 100, "damagedFrameCount": 2, "maxHealth": 2, "editorGroup": "BIRD_GROUP"},
-"YELLOWBIRD_J": {"type": "BIRD", "material": "BIRD_YELLOW", "shape": "BIRD_CIRCLE_YELLOW", "score": 100, "damagedFrameCount": 2, "maxHealth": 2, "editorGroup": "BIRD_GROUP"},
-"BLUEBIRD_J": {"type": "BIRD", "material": "BIRD_BLUE", "shape": "BIRD_CIRCLE_BLUE", "score": 100, "damagedFrameCount": 2, "maxHealth": 2, "editorGroup": "BIRD_GROUP"},
-"WHITEBIRD_J": {"type": "BIRD", "material": "BIRD_WHITE", "shape": "BIRD_CIRCLE_WHITE", "score": 100, "damagedFrameCount": 2, "maxHealth": 2, "editorGroup": "BIRD_GROUP"},
-"BLACKBIRD_J": {"type": "BIRD", "material": "BIRD_BLACK", "shape": "BIRD_CIRCLE_BLACK", "score": 100, "damagedFrameCount": 1, "maxHealth": 2, "editorGroup": "BIRD_GROUP"},
-"GREENBIRD_J": {"type": "BIRD", "material": "BIRD_GREEN", "shape": "BIRD_CIRCLE_GREEN", "score": 100, "damagedFrameCount": 2, "editorGroup": "BIRD_GROUP"},
-"BIGREDBIRD_J": {"type": "BIRD", "material": "BIRD_REDBIG", "shape": "BIRD_CIRCLE_REDBIG", "score": 100, "damagedFrameCount": 1, "editorGroup": "BIRD_GROUP"}
-}

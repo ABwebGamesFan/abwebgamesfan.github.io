@@ -1,0 +1,32 @@
+{
+  "Leveltelepizza-1": {
+    "scoreEagle": 0,
+    "scoreGold": 90000,
+    "scoreSilver": 84000
+  },
+  "Leveltelepizza-2": {
+    "scoreEagle": 0,
+    "scoreGold": 98000,
+    "scoreSilver": 94000
+  },
+  "Leveltelepizza-3": {
+    "scoreEagle": 0,
+    "scoreGold": 105000,
+    "scoreSilver": 101000
+  },
+  "Leveltelepizza-4": {
+    "scoreEagle": 0,
+    "scoreGold": 124000,
+    "scoreSilver": 119000
+  },
+  "Leveltelepizza-5": {
+    "scoreEagle": 0,
+    "scoreGold": 105000,
+    "scoreSilver": 100000
+  },
+  "Leveltelepizza-6": {
+    "scoreEagle": 0,
+    "scoreGold": 125000,
+    "scoreSilver": 120000
+  }
+}

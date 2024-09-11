@@ -1,0 +1,17 @@
+{
+	"image": "INGAME_MENU_CHAPTER_SELECTION.png",
+	"spriteCount": 13,
+	"sprite_0": { "id": "CHAPTER_SELECTION_BUTTON_BACK", "x": 727, "y": 204, "width": 101, "height": 93, "pivotx": 0, "pivoty": 0 },
+	"sprite_1": { "id": "CHAPTER_SELECTION_CHAPTER1", "x": 346, "y": 387, "width": 334, "height": 341, "pivotx": 0, "pivoty": 0 },
+	"sprite_2": { "id": "CHAPTER_SELECTION_CHAPTER_CHROME", "x": 382, "y": 1, "width": 343, "height": 342, "pivotx": 0, "pivoty": 0 },
+	"sprite_3": { "id": "CHAPTER_SELECTION_CHAPTER_COMING_SOON", "x": 1, "y": 387, "width": 343, "height": 342, "pivotx": 0, "pivoty": 0 },
+	"sprite_4": { "id": "CHAPTER_SELECTION_DOT_BLACK", "x": 382, "y": 345, "width": 16, "height": 8, "pivotx": 4, "pivoty": 0 },
+	"sprite_5": { "id": "CHAPTER_SELECTION_DOT_WHITE", "x": 382, "y": 355, "width": 16, "height": 8, "pivotx": 4, "pivoty": 0 },
+	"sprite_6": { "id": "CHAPTER_SELECTION_LEFT_CORNER", "x": 727, "y": 1, "width": 185, "height": 201, "pivotx": 0, "pivoty": 0 },
+	"sprite_7": { "id": "CHAPTER_SELECTION_RIGHT_CORNER", "x": 1, "y": 731, "width": 213, "height": 195, "pivotx": 0, "pivoty": 0 },
+	"sprite_8": { "id": "CHAPTER_SELECTION_CHAPTER2", "x": 682, "y": 387, "width": 333, "height": 341, "pivotx": 0, "pivoty": 0 },
+	"sprite_9": { "id": "CHAPTER_SELECTION_CHAPTER3", "x": 346, "y": 730, "width": 334, "height": 340, "pivotx": 0, "pivoty": 0 },
+	"sprite_10": { "id": "CHAPTER_SELECTION_TEAMWORK", "x": 682, "y": 730, "width": 343, "height": 340, "pivotx": 0, "pivoty": 0 },
+	"sprite_11": { "id": "LS_LEVEL_PACK_LOCK", "x": 915, "y": 2, "width": 136, "height": 172, "pivotx": 68, "pivoty": 86 },
+	"sprite_12": { "id": "CHAPTER_SELECTION_ROVIO_STORE", "x": 1, "y": 1, "width": 379, "height": 384, "pivotx": 0, "pivoty": 0 }
+}

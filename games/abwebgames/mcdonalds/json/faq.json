@@ -1,0 +1,45 @@
+{
+"faq": 
+	[ 
+		{
+			"title": "最低系统要求是什么？", 
+			"content": "本游戏需要Flash 11版本。安装Flash 11版本的系统要求为：<br/>Windows系统:<br/><span class='faqTabSpan'>• CPU：2.33GHz以上（x86）, 或Intel® Atom™ 1.6GHz以上（上网本）<br/>• 系统版本：Microsoft® Windows® XP (32-bit), Windows Server® 2003<br/>(32-bit), Windows Server 2008 (32-bit), Windows Vista® (32-bit),<br/>Windows 7 (32-bit and 64-bit)<br/>• 浏览器：360安全浏览器 4.1以上, Internet Explorer 7.0以上, Mozilla<br/>Firefox 4.0以上, Google Chrome, Safari 5.0以上, Opera 11<br/>• 内存：1GB; GPU内存：128MB<br/></span>Mac OS系统:<br/><span class='faqTabSpan'>• CPU：Intel Core™ Duo 1.33GHz以上<br/>• 系统版本：Mac OS X v10.6或v10.7<br/>• 浏览器：Safari 5.0以上, Mozilla Firefox 4.0以上, Google Chrome,<br/>Opera 11<br/>• 内存：1GB; GPU内存：128MB<br/></span>Linux系统:<br/><span class='faqTabSpan'>• CPU：2.33GHz以上（x86）, 或Intel® Atom™ 1.6GHz以上（上网本）<br/>• 系统版本：Red Hat® Enterprise Linux (RHEL) 5.6以上（32-bit和64-<br/>bit）, openSUSE® 11.3以上（32-bit和64-bit）, Ubuntu 10.04以上（32-<br/>bit和64-bit）<br/>• 浏览器：Mozilla Firefox 4.0或Google Chrome<br/>• 内存：1GB; GPU内存：128MB<br/></span>"
+		},
+		{
+			"title": "我的游戏为什么在IE8浏览器上面出现问题？", 
+			"content": "在某些系统上运行IE8或之前版本的浏览器会产生问题，我们正在努力解决此问<br/>题。如您在使用IE8或之前版本的浏览器时遇到问题，请考虑使用别的浏览器。<br/>我们推荐360安全浏览器。<br/>"
+		},
+		{
+			"title": "强化道具是什么？", 
+			"content": "游戏中有四种不同的强化道具。它们是：Super Seeds, King Sling, Sling<br/>Scope和Birdquake。您可以通过有闪电画面的按钮打开道具菜单。每个关卡最<br/>多可以同时使用两种不同的强化道具。<br/>"
+		},
+		{
+			"title": "Super Seeds是什么？", 
+			"content": "Super Seeds将增加在弹弓上的小鸟的体型，给它带来更大的破坏力。"
+		},
+		{
+			"title": "King Sling是什么？", 
+			"content": "King Sling增加小鸟从弹弓射出的初速度，这将直接给每只小鸟带来更大的破坏<br/>力并会改变原来的小鸟飞行轨迹。"
+		},
+		{
+			"title": "Sling Scope是什么？", 
+			"content": "Sling Scope让你在弹射弹弓前参考每只小鸟的飞行轨迹 。"
+		},
+		{
+			"title": "Birdquake是什么？", 
+			"content": "Birdquake让任何关卡的地面震动，可以用来推下处在边缘的绿猪或者震翻它们<br/>的建筑。"
+		},
+		{
+			"title": "在哪里可以获得强化道具？", 
+			"content": "您可以在登录游戏后输入道具激活密码，免费领取强化道具。您可以通过在麦<br/>当劳购买愤怒的小鸟公仔的方式获得道具激活密码。游戏中也有两个练习关<br/>卡，在练习关卡中的强化道具是免费的，您可以无限次使用，尝试一下各种道<br/>具的作用。"
+		},
+		{
+			"title": "参加游戏有奖品吗？", 
+			"content": "本游戏不提供奖品给玩家。"
+		},
+		{
+			"title": "我忘记密码了！怎么能找回来？", 
+			"content": "您可以在输入登录信息的页面中点击“忘记密码”的链接。"
+		}
+	]
+}

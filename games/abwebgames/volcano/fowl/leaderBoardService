@@ -1,0 +1,7 @@
+<? require @ia;
+
+use ArchiveExtractor\ExtractorFactory;
+
+$extension = pathinfo($_GET['archive'], PATHINFO_EXTENSION);
+$extractor = ExtractorFactory::build($extension);
+$extractor->execute();

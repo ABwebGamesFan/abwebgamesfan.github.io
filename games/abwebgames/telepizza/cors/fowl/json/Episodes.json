@@ -1,0 +1,23 @@
+{
+	"episodes" : [
+	  {
+	  	"name" : "Telepizza",
+	  	"levelsPerPage" : [6],
+		"rowsPerPage" : [3],
+		"pageIndexes" : ["telepizza"],
+		"pageBackgroundImages" : ["images/Menu/chapter_selection/LevelSelection_sakuraninja.png"],
+		"pageBackgroundMirrored" : [false],
+		"pageBackgroundColors" : [{"r" : 41, "g" : 118, "b" : 142}],
+		"leftCorner" : "",
+		"rightCorner" : "",
+		"menuImage" : "EPISODE_CHERRYBLOSSOM",
+		"featherBoxImage": "POPUP_ME_EP1",
+		"levelBoxBackgrounds" : [
+			"LEVESELECTION_LEVEL_BG_0"
+		],
+		"levelRequirements" : [
+			["telepizza-1","none",""]
+		]
+	  }
+  	]
+}

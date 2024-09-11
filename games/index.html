@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="The best part of this website" />
+    <meta name="author" content="" />
+    <title>ABwebGamesFan's website | Games</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link href="/css/styles.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8250e3d7ac.js" crossorigin="anonymous"></script>
+	<meta property="og:title" content="ABwebGamesFans">
+    <meta property="og:type" content="game">
+	<meta name="theme-color" content="blue" />
+    <meta property="og:url" content="../games/">
+    <meta property="og:image" content="../games/fb.png">
+    <meta property="og:site_name" content="ABwebGamesFan's website">
+</head>
+<body>
+    <!-- Responsive navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="../">ABwebGamesFan's website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="../">Home <i class="fa-solid fa-house"></i></a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/games">Games <i class="fa-solid fa-gamepad"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- <div class="text-center" style="background-color: var(--bs-danger);">
+		<p class="font-weight-light my-2" style="margin-bottom: 0; color: var(--bs-white);">If your looking for the main website, it's <a id="link" href="http://abwebgamesfan.ct8.pl" style="color: var(--bs-link-color);">here</a>.</p>
+	</div>
+     -->
+
+<!-- Page Content-->
+<div class="container px-4 px-lg-5">
+    <!-- Heading Row-->
+    <div class="row gx-4 gx-lg-5 align-items-center my-5">
+        <div class="col-lg-5">
+            <h1 class="font-weight-light">Games <i class="fa-solid fa-gamepad"></i></h1>
+            <p>Here's a handful of games that are hosted on my main site, and most of them are Angry Birds. (Keep in mind that some games may not be optimized for mobile)</p>
+            <p>Having trouble playing Flash games? Try downloading <a id="link" href="http://assets.abwebgamesfan.ct8.pl/basilisk/Basilisk%20Portable%20with%20Flash.zip" style="color: var(--bs-link-color);">this browser</a>.</p>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-secondary" onclick="filterGames('html5')">HTML5 <i class="fa-brands fa-html5"></i></button>
+                <button type="button" class="btn btn-secondary" onclick="filterGames('flash')">Flash <i class="fa-solid fa-bolt"></i></button>
+                <button type="button" class="btn btn-secondary" onclick="filterGames('webgl')">WebGL <i class="fa-brands fa-unity"></i></button>
+                <!-- <button type="button" class="btn btn-secondary" onclick="filterGames('java')">Java <i class="fa-brands fa-java"></i></button>
+                <button type="button" class="btn btn-secondary" onclick="filterGames('other')">Other <i class="fa-solid fa-puzzle-piece"></i></button> -->
+                <button type="button" class="btn btn-secondary" onclick="filterGames('all')">Show All</button>
+            </div>
+            <div class="input-group mt-3">
+                <input type="text" class="form-control" id="searchInput" placeholder="Search...">
+                <button class="btn btn-outline-secondary" type="button" onclick="searchGames()">Search</button>
+            </div>
+        </div>
+    </div>
+        <!-- <span class="badge rounded-pill text-bg-success">New!</span>-->
+        <!-- Content Row - Games Section-->
+        <div class="row gx-4 gx-lg-5" id="games">
+
+
+            <div class="col-md-4 mb-5" data-tags="flash">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/cocacola.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Angry Birds Coca-Cola </h2>
+                        <h5 class="card-title">by Rovio</h5>
+                        <h5 class="card-title"><i class="fa-solid fa-bolt"></i> Flash</h5>
+                        <p class="card-text">A chinese Angry Birds webgame made to promote Coca-Cola. </p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="abwebgames/cocacola">Play!</a></div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-5" data-tags="flash">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/heikki.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Angry Birds Heikki </h2>
+                        <h5 class="card-title">by Rovio</h5>
+                        <h5 class="card-title"><i class="fa-solid fa-bolt"></i> Flash</h5>
+                        <p class="card-text">Where's Heikki's F1 racing helmet gone?! The Angry Birds have a hunch! </p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="abwebgames/heikki/">Play!</a></div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-5" data-tags="html5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/terencesim.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Angry Birds: Terence Simulator</h2>
+                        <h5 class="card-title">by ABwebGamesFan (me)</h5>
+                        <h5 class="card-title"><i class="fa-brands fa-html5"></i> HTML5</h5>
+                        <p class="card-text">A small Scratch game I made where you just click on the Terence.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary btn-sm" id="playButton2" href="/games/terencesim" >Play!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-5" data-tags="webgl">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/abh.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Angry Birds Epic (Prototype) </h2>
+                        <h5 class="card-title">by Rovio</h5>
+                        <h5 class="card-title"><i class="fa-brands fa-unity"></i> WebGL</h5>
+                        <p class="card-text">Prototype for Angry Birds Epic that was found in December 2023.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary btn-sm" id="playButton2" href="/games/ABHPrototype" >Play!</a>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-4 mb-5" data-tags="html5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/ctr.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Cut the Rope</h2>
+                        <h5 class="card-title">by ZeptoLab</h5>
+                        <h5 class="card-title"><i class="fa-brands fa-html5"></i> HTML5</h5>
+                        <p class="card-text">Play Cut the Rope! A mysterious package has arrived, and the little monster inside has only one request… CANDY!</p>
+                        </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary btn-sm" id="playButton1" href="cuttherope">Play!</a>
+                        </div>
+                    </div>
+                </div>
+
+
+			<div class="col-md-4 mb-5" data-tags="flash">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/bloons.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Bloons</h2>
+                        <h5 class="card-title">by Ninja Kiwi</h5>
+                        <h5 class="card-title"><i class="fa-solid fa-bolt"></i> Flash</h5>
+                        <p class="card-text">Bloons is a fun arcade game in which you need to help the monkey to pop the balloons with its darts. </p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="bloons/">Play!</a></div>
+                </div>
+            </div>
+
+			<div class="col-md-4 mb-5" data-tags="webgl">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/bp.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Bad Piggies</h2>
+                        <h5 class="card-title">by Rovio</h5>
+                        <h5 class="card-title"><i class="fa-brands fa-unity"></i> WebGL</h5>
+                        <p class="card-text">Build makeshift contraptions from a huge collection of parts and make it to the goal without blowing your vehicle to pieces!</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="badpiggies/">Play!</a></div>
+                </div>
+            </div>
+
+			<div class="col-md-4 mb-5" data-tags="flash">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/pvz.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Plants vs. Zombies</h2>
+                        <h5 class="card-title">by PopCap</h5>
+                        <h5 class="card-title"><i class="fa-solid fa-bolt"></i> Flash</h5>
+                        <p class="card-text">Zombies are invading your home, and the only defense is your arsenal of plants!</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="pvz/">Play!</a></div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-5" data-tags="html5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/bejeweledhtml.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Bejeweled</h2>
+                        <h5 class="card-title">by PopCap</h5>
+                        <h5 class="card-title"><i class="fa-brands fa-html5"></i> HTML5</h5>
+                        <p class="card-text">Discover your perfect match with 6 breathtaking modes in this classic gem-matching game!</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="bejeweledhtml5/">Play!</a></div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 mb-5" data-tags="flash">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/abmcd.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Angry Birds McDonald's</h2>
+                        <h5 class="card-title">by Rovio</h5>
+                        <h5 class="card-title"><i class="fa-solid fa-bolt"></i> Flash</h5>
+                        <p class="card-text">Angry Birds McDonald's is a puzzle webgame released on September 28, 2012, and was made to promote McDonald's.</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="abwebgames/mcdonalds">Play!</a></div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-5" data-tags="flash">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/ultrabook.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Angry Birds in Ultrabook™ Adventure</h2>
+                        <h5 class="card-title">by Rovio</h5>
+                        <h5 class="card-title"><i class="fa-solid fa-bolt"></i> Flash</h5>
+                        <p class="card-text">Help the Angry Birds save their eggs from the bad piggies. This time the pigs have fled into an Ultrabook&trade; and the birds must give chase in this exciting Ultrabook&trade; Adventure!</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="abwebgames/ultrabook">Play!</a></div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-5" data-tags="flash">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/lotus.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Angry Birds Lotus F1 Team</h2>
+                        <h5 class="card-title">by Rovio</h5>
+                        <h5 class="card-title"><i class="fa-solid fa-bolt"></i> Flash</h5>
+                        <p class="card-text">This webgame contains 3 levels with new structures and signs sponsoring Lotus F1 Team. </p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="abwebgames/lotus">Play!</a></div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-5" data-tags="html5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/pistachios.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">Angry Birds Wonderful Pistachios</h2>
+                        <h5 class="card-title">by Rovio</h5>
+                        <h5 class="card-title"><i class="fa-brands fa-html5"></i> HTML5</h5>
+                        <p class="card-text">Another webgame made to promote Wonderful Pistachios.</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="abwebgames/pistachios/">Play!</a></div>
+                </div>
+            </div>
+            
+        <!--  <div class="col-md-4 mb-5" data-tags="other">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/template.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">placeholder</h2>
+                        <p class="card-text">yeah</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="placeholder/">Play!</a></div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-5" data-tags="other">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/template.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">placeholder</h2>
+                        <p class="card-text">yeah</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="placeholder/">Play!</a></div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-5" data-tags="other">
+                <div class="card h-100">
+                    <img class="card-img-top" src="images/template.png" alt="If you are seeing this text it means I haven't added a banner for the game yet!">
+                    <div class="card-body">
+                        <h2 class="card-title">placeholder</h2>
+                        <p class="card-text">yeah</p>
+                    </div>
+                    <div class="card-footer"><a class="btn btn-primary btn-sm" href="placeholder/">Play!</a></div>
+                </div>
+            </div> -->
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="/js/scripts.js"></script>
+
+    <script>
+        function filterGames(tag) {
+            const gameCards = document.querySelectorAll('[data-tags]');
+            gameCards.forEach(card => {
+                const tags = card.getAttribute('data-tags').split(',');
+                if (tags.includes(tag) || tag === 'all') {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+    <script>
+
+
+function createElement (tag) {
+  if (tag === 'svg') {
+    return document.createElementNS('http://www.w3.org/2000/svg', 'svg')
+  } else {
+    return document.createElementNS('http://www.w3.org/1999/xhtml', tag)
+  }
+}
+
+function changeTag (node, tag) {
+  const clone = createElement(tag)
+  for (const attr of node.attributes) {
+    clone.setAttributeNS(null, attr.name, attr.value)
+  }
+  while (node.firstChild) {
+    clone.appendChild(node.firstChild)
+  }
+  node.replaceWith(clone)
+  return clone
+}
+
+        function updatePlayButton(version) {
+            document.getElementById('confirmPlayButton').href = "../games/" + version;
+        }
+        
+        function updatePlayButton1(title, version) {
+	const node1 = document.getElementById("playButton1")
+	console.log(node1.outerHTML)
+	console.log(changeTag(node1, "a").outerHTML)
+	
+    document.getElementById("playButton1").href = version;
+	
+    document.getElementById("dropdownMenuButton1").innerHTML = title;}
+
+
+    function updatePlayButton2(title, version) {
+	const node1 = document.getElementById("playButton2")
+	console.log(node1.outerHTML)
+	console.log(changeTag(node1, "a").outerHTML)
+	
+    document.getElementById("playButton2").href = version;
+	
+    document.getElementById("dropdownMenuButton2").innerHTML = title;}
+
+
+    function updatePlayButton3(title, version) {
+	const node1 = document.getElementById("playButton3")
+	console.log(node1.outerHTML)
+	console.log(changeTag(node1, "a").outerHTML)
+	
+    document.getElementById("playButton3").href = version;
+	
+    document.getElementById("dropdownMenuButton3").innerHTML = title;}
+
+
+    function updatePlayButton5(title, version) {
+	const node1 = document.getElementById("playButton5")
+	console.log(node1.outerHTML)
+	console.log(changeTag(node1, "a").outerHTML)
+	
+    document.getElementById("playButton5").href = version;
+	
+    document.getElementById("dropdownMenuButton5").innerHTML = title;}
+
+
+
+    function updatePlayButton8(title, version) {
+	const node1 = document.getElementById("playButton8")
+	console.log(node1.outerHTML)
+	console.log(changeTag(node1, "a").outerHTML)
+	
+    document.getElementById("playButton8").href = version;
+	
+    document.getElementById("dropdownMenuButton8").innerHTML = title;
+    }
+
+    function updatePlayButton9(title, version) {
+	const node1 = document.getElementById("playButton9")
+	console.log(node1.outerHTML)
+	console.log(changeTag(node1, "a").outerHTML)
+	
+    document.getElementById("playButton9").href = version;
+	
+    document.getElementById("dropdownMenuButton9").innerHTML = title;
+    }
+
+    </script>
+	<script>
+function searchGames() {
+    var input = document.getElementById('searchInput');
+    var filter = input.value.toUpperCase();
+
+    var games = document.getElementById('games').getElementsByClassName('col-md-4 mb-5');
+
+    for (var i = 0; i < games.length; i++) {
+        var title = games[i].getElementsByClassName('card-title')[0].innerText;
+        if (title) {
+            if (title.toUpperCase().indexOf(filter) > -1) {
+                games[i].style.display = "";
+            } else {
+                games[i].style.display = "none";
+            }
+        }
+    }
+}
+    </script>
+</body>
+</html>

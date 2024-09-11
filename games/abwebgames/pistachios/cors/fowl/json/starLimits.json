@@ -1,0 +1,32 @@
+{
+  "Level1-1": {
+    "scoreEagle": 100,
+    "scoreGold": 127000,
+    "scoreSilver": 120000
+  },
+  "Level1-2": {
+    "scoreEagle": 100,
+    "scoreGold": 160000,
+    "scoreSilver": 150000
+  },
+  "Level1-3": {
+    "scoreEagle": 100,
+    "scoreGold": 103000,
+    "scoreSilver": 97000
+  },
+  "Level1-4": {
+    "scoreEagle": 100,
+    "scoreGold": 132000,
+    "scoreSilver": 125000
+  },
+  "Level1-5": {
+    "scoreEagle": 100,
+    "scoreGold": 169000,
+    "scoreSilver": 160000
+  },
+  "Level1-6": {
+    "scoreEagle": 100,
+    "scoreGold": 150000,
+    "scoreSilver": 143000
+  }
+}
